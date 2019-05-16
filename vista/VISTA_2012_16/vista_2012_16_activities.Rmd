@@ -3,16 +3,17 @@ title: "VISTA Activities 2012-16"
 author: "Dhirendra Singh"
 output:
   ioslides_presentation:
-    widescreen: true
-    smaller: true
-  beamer_presentation: default
+    number_sections: yes
+    smaller: yes
+    widescreen: yes
   pdf_document:
     highlight: tango
+    number_sections: yes
   html_document:
     keep_md: yes
-urlcolor: blue
-#geometry: "left=1cm,right=1cm,top=2cm,bottom=2cm"
+    number_sections: yes
 fontsize: 10pt
+urlcolor: blue
 ---
 
 ## About 
@@ -23,7 +24,7 @@ This document describes the process for calculating the spread of activities of 
 
 
 
-# Data
+# Data | Victorian Integrated Survey of Travel & Activity
 
 ## Sourcing VISTA 2012-16 Data
 
@@ -73,6 +74,8 @@ Y12H0000126P01  Friday Personal Business      Work Related      600     610     
 Y12H0000126P01  Friday      Work Related     At or Go Home     1050    1125           139.78
 --------------------------------------------------------------------------------------------
 ```
+
+# Activities by Time of Day
 
 ## Extracting Activities from Trip Records
 
@@ -185,9 +188,7 @@ for(act in unique(sort(df$Activity.Group))) {
 ```
 
 
-# Outputs
-
-## Activities of Greater Melbourne
+## Activities by Time of Day for Greater Melbourne
 
 ```{r echo=FALSE, fig.width=10, fig.height=5}
 source('./vista_2012_16_functions.R')
