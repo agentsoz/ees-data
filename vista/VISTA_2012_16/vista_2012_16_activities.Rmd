@@ -163,46 +163,38 @@ for (binSizeInMins in c(30,60,120)) {
 }
 ```
 
+```{r echo=FALSE, eval = FALSE}
+source('./vista_2012_16_functions.R')
+out_weekday_activities_csv_gz <- './vista_2012_16_extracted_activities_weekday.csv.gz'
+out_weekend_activities_csv_gz <- './vista_2012_16_extracted_activities_weekend.csv.gz'
+
+gz1 <- gzfile(out_weekend_activities_csv_gz,'rt')
+activities<-read.csv(gz1,header = T,sep=',',stringsAsFactors = F,strip.white = T)
+close(gz1)
+
+df<-activities[c("Activity.Group", "Act.Start.Time","Act.End.Time", "Count")]
+df$Duration<-(df$Act.End.Time-df$Act.Start.Time)
+for(act in unique(sort(df$Activity.Group))) {
+  yy<-df[df$Activity.Group==act,]
+  yy<-data.frame("Activity.Group"=rep(yy$Activity.Group,yy$Count),"Act.Start.Time"=rep(yy$Act.Start.Time,yy$Count))
+  gg<-ggplot(yy, aes(x=Act.Start.Time, col=Activity.Group, fill=Activity.Group)) +
+    geom_histogram(position="identity", bins=24*4)
+  show(gg)
+}
+
+```
+
+
 # Outputs
 
-## Weekday activities for Greater Melbourne | 30 min bins
+## Activities of Greater Melbourne
 
-```{r echo=FALSE, fig.width=8, fig.height=4}
+```{r echo=FALSE, fig.width=10, fig.height=5}
 source('./vista_2012_16_functions.R')
-plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekday_30_min_bins.csv.gz')
-```
-
-## Weekday activities for Greater Melbourne | 60 min bins
-
-```{r echo=FALSE, fig.width=8, fig.height=4}
-source('./vista_2012_16_functions.R')
-plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekday_60_min_bins.csv.gz')
-```
-
-## Weekday activities for Greater Melbourne | 120 min bins
-
-```{r echo=FALSE, fig.width=8, fig.height=4}
-source('./vista_2012_16_functions.R')
-plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekday_120_min_bins.csv.gz')
-```
-
-## Weekend activities for Greater Melbourne | 30 min bins
-
-```{r echo=FALSE, fig.width=8, fig.height=4}
-source('./vista_2012_16_functions.R')
-plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekend_30_min_bins.csv.gz')
-```
-
-## Weekend activities for Greater Melbourne | 60 min bins
-
-```{r echo=FALSE, fig.width=8, fig.height=4}
-source('./vista_2012_16_functions.R')
-plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekend_60_min_bins.csv.gz')
-```
-
-## Weekend activities for Greater Melbourne | 120 min bins
-
-```{r echo=FALSE, fig.width=8, fig.height=4}
-source('./vista_2012_16_functions.R')
-plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekend_120_min_bins.csv.gz')
+plot_week_activities_by_hour_of_day(
+  './vista_2012_16_extracted_activities_weekday_30_min_bins.csv.gz',
+  './vista_2012_16_extracted_activities_weekend_30_min_bins.csv.gz'
+  )
+# Weekend/weekday activities can also be plotted separately, as below
+# plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekday_60_min_bins.csv.gz')
 ```
