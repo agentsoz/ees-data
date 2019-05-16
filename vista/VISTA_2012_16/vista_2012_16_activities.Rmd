@@ -9,16 +9,21 @@ output:
   pdf_document:
     highlight: tango
     number_sections: yes
+    latex_engine: xelatex
   html_document:
-    keep_md: yes
     number_sections: yes
 fontsize: 10pt
 urlcolor: blue
+header-includes:
+  \usepackage{fontspec}
+  \setmainfont{Charter}
 ---
 
-## About 
+# About 
 
-*Document version: `r as.character(format(Sys.Date(), format="%B %d, %Y"))`*
+## Document
+
+Version: `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
 
 This document describes the process for calculating the spread of activities of Melbournians by time of day. The Victorian Integrated Survey of Travel & Activity (VISTA) 2012-16 data is used for this purpose.
 
