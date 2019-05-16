@@ -1,0 +1,190 @@
+---
+title: "Street Address Data for Victoria"
+author: "Dhirendra Singh"
+output:
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+  beamer_presentation: default
+  pdf_document:
+    highlight: tango
+  html_document:
+    keep_md: yes
+urlcolor: blue
+#geometry: "left=1cm,right=1cm,top=2cm,bottom=2cm"
+fontsize: 10pt
+---
+
+## About 
+
+*Document version: `r as.character(format(Sys.Date(), format="%B %d, %Y"))`*
+
+This document describes the process of creating a readily useable CSV file of all street addresses in the state of Victoria. We use the Vicmap Address dataset for this purpose.
+
+# Data
+
+## VicMap Data
+
+The `Vicmap Address` dataset for the state of Victoria was downloaded from the [Spatial Datamart](http://services.land.vic.gov.au/SpatialDatamart) service in the following format:
+
+--------------------------------------------------------------------------
+Product         Area	                Format	         Projection
+--------------- --------------------- ---------------- -------------------
+Vicmap Address  Whole of State : VIC	ESRI Shape file	 VICGRID on GDA-94
+--------------------------------------------------------------------------
+
+Given its size (268M) the archive is not saved in this repository, but can be downloaded from [this link](https://cloudstor.aarnet.edu.au/plus/s/efejsmkNL6XCM77).
+
+# Data Processing
+
+## Extract VicMap Data
+
+Unzip the Vicmap archive. Note that ESRI Shapefile databases (`.dbf`) have a size limit of 2GB, due to which Vicmap supplies the GIS addresses for Victoria cut vertically into two files.
+
+```{r, engine = 'bash', eval = FALSE}
+  $ unzip SDM596803.zip
+  Archive:  SDM596803.zip
+  inflating: Data_Access_Licence.pdf  
+  inflating: VICMAP_ADDRESS.xml      
+  inflating: ANZVI0803002578.mhtml   
+  inflating: ANZVI0803003126.mhtml   
+   creating: vicgrid94/
+   creating: vicgrid94/shape/
+   creating: vicgrid94/shape/whole_of_dataset/
+   creating: vicgrid94/shape/whole_of_dataset/vic/
+   creating: vicgrid94/shape/whole_of_dataset/vic/VMADD/
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_column_names.txt  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS.shp  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS.shx  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS.dbf  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS.prj  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS.cpg  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_1.shp  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_1.shx  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_1.dbf  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_1.prj  
+  inflating: vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_1.cpg  
+```
+
+## ESRI to GeoJson
+
+Convert the ESRI shapefiles to compressed GeoJSON files in WSG84 format for easier processing:
+
+```{r, engine = 'bash', eval = FALSE}
+ogr2ogr -f "GeoJson" add.json vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS.shp
+gzip add.json
+
+ogr2ogr -f "GeoJson" -t_srs "EPSG:4326" add1.json vicgrid94/shape/whole_of_dataset/vic/VMADD/ADDRESS_1.shp
+gzip add1.json
+```
+
+Note that the process takes a few minites and the interim `.json` files are quite large (up to 8GB), due to the volume of data. We final compressed GeoJson files are more manageable:
+
+```{r, engine = 'bash', eval = FALSE}
+$ du add*json.gz
+305M	add.json.gz
+3.1M	add1.json.gz
+```
+
+## GeoJson to CSV
+
+Extract the fields `EZI_ADD`, `MESH_BLOCK`, and `coordinates` from the GeoJson files into a combined compressed CSV:
+
+```{r, engine = 'bash', eval = FALSE}
+$ zless add.json.gz |\
+    grep -oE "EZI_ADD.*?,|MESH_BLOCK.*?,|coordinates.*?]" |\
+    cut -f2 -d':' |\
+    sed -e 's/\[//g;s/\]//g' |\
+    awk '{$1=$1};1'|\
+    paste -s -d ",,\n" - |\
+    sed -e 's/,,/,/g' > \
+    add.csv
+    
+$ zless add1.json.gz |\
+    grep -oE "EZI_ADD.*?,|MESH_BLOCK.*?,|coordinates.*?]" |\
+    cut -f2 -d':' |\
+    sed -e 's/\[//g;s/\]//g' |\
+    awk '{$1=$1};1'|\
+    paste -s -d ",,\n" - |\
+    sed -e 's/,,/,/g' > \
+    add1.csv
+    
+$ (echo "EZI_ADD,MESH_BLOCK,X,Y" && cat add1.csv) | gzip > VICMAP-ADDRESSES-2019-VIC.csv.gz
+```
+
+## Output Street Address Records
+
+Below are some sample records (rows) from the extracted `VICMAP-ADDRESSES-2019-VIC.csv.gz` file. 
+
+-------------------------------------------------------------------------------------------------
+EZI_ADD                                 MESH_BLOCK     X                    Y
+--------------------------------------- -------------- -------------------  ---------------------
+"123 FOREST STREET BENDIGO 3550"        "20206450000"  144.27175086         -36.755240929999722
+
+"5-9 HELEN STREET MOUNT DANDENONG 3767" "20649530000"  145.358282319999944  -37.834493579999759
+
+"LAE STREET WEST FOOTSCRAY 3012"        "20379840000"  144.866444788999956  -37.809529774999767
+
+"13 DEANS MARSH ROAD LORNE 3232"        "20562580000"  143.97666909         -38.533417849999772
+
+"8A EASTSIDE DRIVE MILDURA 3500"        "20411621000"  142.184774589999961  -34.195369369999646
+-------------------------------------------------------------------------------------------------
+
+
+## Street Addresses to Statistical Areas
+
+We link street addresses to Statistical Areas using the [`Victoria Mesh Blocks ASGS Edition 2016`](https://www.abs.gov.au/AUSSTATS/abs@.nsf/Lookup/1270.0.55.001Main+Features10018July%202016?OpenDocument) dataset from the ABS, downloaded on 16 May 2019 as `../abs/MB_2016_VIC.csv.gz`. 
+
+Here are partial rows showing the mapping to Statistical Areas from Mesh Bocks:
+
+---------------------------------------------------------------------------------------------------------------------------
+MB_CODE      SA1_7DIGITCODE SA2_5DIGITCODE SA2_NAME         SA3_CODE SA3_NAME             SA4_CODE  SA4_NAME
+_2016        _2016          _2016          _2016            _2016    _2016                _2016     _2016
+------------ -------------- -------------- ---------------- -------- -------------------- --------- --------------
+20206450000  2101822        21018          Bendigo          20201    Bendigo              202       Bendigo
+
+20649530000  2128221        21282          Mount Dandenong  21105    Yarra Ranges         211       Melbourne -
+                                           - Olinda                                                 Outer East
+                                           
+20562580000  2104902        21049          Lorne -          20303    Surf Coast -         203       Geelong
+                                           Anglesea                  Bellarine Peninsula
+---------------------------------------------------------------------------------------------------------------------------
+
+## Missing Mesh Blocks?
+
+* Vicmap data in (`VICMAP-ADDRESSES-2019-VIC.csv.gz`) has `3,770,081` street addresses 
+belonging to `77,592` Mesh Blocks. 
+
+* In the ABS data (`MB_2016_VIC.csv.gz`) there are `85,014` Mesh Block records.
+
+* However, some Vicmap Mesh Blocks, such as `20379840000` and `20411621000` from before, do not exist in the ABS dataset. 
+
+* According to the [Vicmap Address Product Description](https://www2.delwp.vic.gov.au/maps/spatial-data?a=49746) document the `mesh_block` attribute is `Not currently populated` possibly suggesing that it should not be used (yet).
+
+* One option is to find which mesh block polygon the coordinates of the address record belongs to. We have a fast algorithm for this, called [Address Mapper](https://github.com/agentsoz/synthetic-population/tree/v2#address-mapper) that can be used.
+
+
+## Residential Street Addresses
+
+The ABS Mesh Block records also contain the `MB_CATEGORY_NAME_2016` field which has some useful classification that could be used to categorise street addesses in those blocks:
+
+```
+-----------------------------------------------------
+Category            Number of Mesh Blocks in Category
+------------------- ---------------------------------
+Residential         58559 
+Parkland            10551 
+Primary Production  4634 
+Commercial          4309 
+Industrial          2122 
+Education           2057 
+Other               1112 
+Water               810 
+Transport           595 
+Hospital/Medical    257 
+SHIPPING            5 
+OFFSHORE            1 
+NOUSUALRESIDENCE    1 
+MIGRATORY           1 
+------------------------------------------------------
+```
