@@ -114,6 +114,7 @@ Y12H0000126P01  Friday     At or Go Home            1125         1439           
 ## Simplifying Activity Labels
 
 Group activities into activity groups as follows:
+
    ```
    ----------------------------------------------------------------------------------------
    Activities                                                       Activity Group
@@ -183,10 +184,9 @@ plot_week_activities_by_hour_of_day(
 
 # Activity Chains | or what follows what
 
-## Activity Types
+## Markov Chain Model
 
-Use our activity groups, but with the `Home` group refined further as follows:
-
+* Start with our activity groups, but with the `Home` group refined as follows:
 ```
 --------------------------------------------------------------------------------------
 Activity Type       Mapping to VISTA Activity
@@ -205,14 +205,26 @@ With Someone           Accompany Someone
 Work                   Work Related
 -------------------------------------------------------------------------------------
 ```
+* Use VISTA data to create a matrix giving transition probabilities between each activity
+* `Home Night` is the *absorbing state* as there are zero transitions out from it.
+* Use the transition matrix to create a *Markov Chain* model (using R package `markovchain`)
 
 
-```{r echo=FALSE}
+## Weekend Activities Markov Chain
+
+```{r echo=FALSE, eval=FALSE}
 source('./vista_2012_16_functions.R')
 mc<-create_markov_chain_model('Weekend Activities','./vista_2012_16_extracted_activities_weekend.csv.gz')
 #rmarkovchain(n=20,mc,t0="Home Morning")
+pdf("markov.pdf",width=12,height=12, paper="special")
+plot(mc,col=heat.colors(20))
+graphics.off()
 ```
 
+```{r echo=FALSE}
+source('./vista_2012_16_functions.R')
+knitr::include_graphics('markov.pdf')
+```
 
 
 ```{r echo=FALSE, eval = FALSE}
