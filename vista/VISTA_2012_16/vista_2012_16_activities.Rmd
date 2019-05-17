@@ -113,16 +113,14 @@ Y12H0000126P01  Friday     At or Go Home            1125         1439           
 
 ## Simplifying Activity Labels
 
-1. Remove `Change Mode` activitiy which is an in-transit mode-change event.
-
-1. Remove `Accompany Someone` activity which is a secondary activitiy.
-
-1. Group the remaining activities into activity groups as follows:
+Group activities into activity groups as follows:
    ```
    ----------------------------------------------------------------------------------------
    Activities                                                       Activity Group
    ---------------------------------------------------------------- -----------------------
    At or Go Home                                                    Home
+   Accompany Someone                                                With Someone
+   Change Mode                                                      Mode Change
    Unknown purpose (at start of day), Other Purpose, Not Stated     Other
    Personal Business                                                Personal
    Work Related                                                     Work
@@ -163,13 +161,59 @@ simplify_activities_and_create_groups(out_weekday_activities_csv_gz)
 simplify_activities_and_create_groups(out_weekend_activities_csv_gz)
 
 # Collapse into desired time bin sizes and write out
-for (binSizeInMins in c(30,60,120)) {
+for (binSizeInMins in c(30)) {
   out_weekday_activities_tod_csv_gz <- paste0('./vista_2012_16_extracted_activities_weekday_',binSizeInMins,'_min_bins.csv.gz')
   out_weekend_activities_tod_csv_gz <- paste0('./vista_2012_16_extracted_activities_weekend_',binSizeInMins,'_min_bins.csv.gz')
   extract_activities_by_time_of_day(out_weekend_activities_csv_gz, binSizeInMins,out_weekend_activities_tod_csv_gz)
   extract_activities_by_time_of_day(out_weekday_activities_csv_gz, binSizeInMins, out_weekday_activities_tod_csv_gz)
 }
 ```
+
+## Activities by Time of Day for Greater Melbourne
+
+```{r echo=FALSE, fig.width=10, fig.height=5}
+source('./vista_2012_16_functions.R')
+plot_week_activities_by_hour_of_day(
+  './vista_2012_16_extracted_activities_weekday_30_min_bins.csv.gz',
+  './vista_2012_16_extracted_activities_weekend_30_min_bins.csv.gz'
+  )
+# Weekend/weekday activities can also be plotted separately, as below
+# plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekday_60_min_bins.csv.gz')
+```
+
+# Activity Chains | or what follows what
+
+## Activity Types
+
+Use our activity groups, but with the `Home` group refined further as follows:
+
+```
+--------------------------------------------------------------------------------------
+Activity Type       Mapping to VISTA Activity
+------------------- ------------------------------------------------------------------
+Home Morning           At or Go Home, when first activity of the day 
+Home Night             At or Go Home, when last activity of the day 
+Home Daytime           At or Go Home, when not the first or last activity of the day
+Mode Change            Change Mode
+Other                  Unknown purpose (at start of day), Other Purpose, Not Stated     
+Personal               Personal Business
+Pickup/Dropoff/Deliver Pick-up or Drop-off Someone, Pick-up or Deliver Something
+Shop                   Buy Something
+Social/Recreational    Social, Recreational
+Study                  Education
+With Someone           Accompany Someone
+Work                   Work Related
+-------------------------------------------------------------------------------------
+```
+
+
+```{r echo=FALSE}
+source('./vista_2012_16_functions.R')
+mc<-create_markov_chain_model('Weekend Activities','./vista_2012_16_extracted_activities_weekend.csv.gz')
+#rmarkovchain(n=20,mc,t0="Home Morning")
+```
+
+
 
 ```{r echo=FALSE, eval = FALSE}
 source('./vista_2012_16_functions.R')
@@ -193,14 +237,3 @@ for(act in unique(sort(df$Activity.Group))) {
 ```
 
 
-## Activities by Time of Day for Greater Melbourne
-
-```{r echo=FALSE, fig.width=10, fig.height=5}
-source('./vista_2012_16_functions.R')
-plot_week_activities_by_hour_of_day(
-  './vista_2012_16_extracted_activities_weekday_30_min_bins.csv.gz',
-  './vista_2012_16_extracted_activities_weekend_30_min_bins.csv.gz'
-  )
-# Weekend/weekday activities can also be plotted separately, as below
-# plot_activities_by_hour_of_day('./vista_2012_16_extracted_activities_weekday_60_min_bins.csv.gz')
-```
