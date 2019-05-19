@@ -27,6 +27,9 @@ Version: `r as.character(format(Sys.Date(), format="%B %d, %Y"))`
 
 This document describes the process for calculating the spread of activities of Melbournians by time of day. The Victorian Integrated Survey of Travel & Activity (VISTA) 2012-16 data is used for this purpose.
 
+```{r set-options, echo=FALSE, cache=FALSE}
+options(width = 150)
+```
 
 
 # Data | Victorian Integrated Survey of Travel & Activity
@@ -210,13 +213,13 @@ Work                   Work Related
 * Use the transition matrix to create a *Markov Chain* model (using R package `markovchain`)
 
 
-## Weekend Activities Markov Chain
+## Weekend Activities - Markov Chain Model
 
 ```{r echo=FALSE, eval=FALSE}
 source('./vista_2012_16_functions.R')
 mc<-create_markov_chain_model('Weekend Activities','./vista_2012_16_extracted_activities_weekend.csv.gz')
 #rmarkovchain(n=20,mc,t0="Home Morning")
-pdf("markov.pdf",width=12,height=12, paper="special")
+pdf("markov.pdf",width=8.5,height=8.5, paper="special")
 plot(mc,col=heat.colors(20))
 graphics.off()
 ```
@@ -224,6 +227,34 @@ graphics.off()
 ```{r echo=FALSE}
 source('./vista_2012_16_functions.R')
 knitr::include_graphics('markov.pdf')
+mc<-create_markov_chain_model('Weekend Activities','./vista_2012_16_extracted_activities_weekend.csv.gz')
+```
+
+## Weekend Activities - Generating New Chains
+
+* Markov Chain model can be used to generate any number of sequences of activities, for example:
+  ```{r echo=TRUE, eval=FALSE}
+  > c("Home Morning",rmarkovchain(n=9,mc,t0="Home Morning")) # chain of size 10
+  [1] "Home Morning"        "Shop"          "Home Daytime"        "Social/Recreational"  
+  [5] "Social/Recreational" "Home Daytime"  "Social/Recreational" "Home Night"    
+  [9] "Home Night"          "Home Night"
+  ```
+  $\therefore$ `Home -> Shop -> Home -> Social/Rec -> Social/Rec -> Home -> Social/Rec -> Home`.
+  
+## Generating Weekend Activities for 15,000 Persons
+
+```{r echo=TRUE}
+popnsz<-15000; chainlen<-50; startAct<-"Home Morning"; endAct<-"Home Night"
+df<-data.frame(row.names = seq(1:chainlen))
+for (i in seq(1:popnsz)) {
+  v<-c(startAct,rmarkovchain(n=chainlen-1,mc,t0=startAct)) # chain of requested length
+  idx<-match(endAct, v); v[seq(idx+1,length(v))]<-'' # remove repeating endActs
+  df[,i]<-v # assign to new column
+}
+acts<-as.data.frame(table(t(df))) # return the transposed matrix and summarise
+acts<-acts[2:nrow(acts),] # remove first row of total counts
+acts$Percentage<-round(100*(acts$Freq/sum(acts$Freq)),digits = 1) # get percentage split
+print(acts[order(acts$Percentage, decreasing = TRUE),]) # report
 ```
 
 
