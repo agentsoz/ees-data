@@ -56,63 +56,11 @@ if [ ! -f $DIR/$AU_PBF ] ; then
   cd -
 fi
 
-# download the poly files for the region
+# download the poly file for Victoria
 polyfile="vic.poly"
 if [ ! -e $DIR/$polyfile ] ; then
   printf "\nCreating polygon file $DIR/$polyfile...\n\n"
-  polys="
-  alpine-shire_victoria.poly
-  bass-coast-shire_victoria.poly
-  shire-of-baw-baw_victoria.poly
-  shire-of-buloke_victoria.poly
-  shire-of-campaspe_victoria.poly
-  shire-of-cardinia_victoria.poly
-  shire-of-central-goldfields_victoria.poly
-  shire-of-colac-otway_victoria.poly
-  shire-of-corangamite_victoria.poly
-  shire-of-east-gippsland_victoria.poly
-  shire-of-gannawarra_victoria.poly
-  shire-of-hepburn_victoria.poly
-  shire-of-hindmarsh_victoria.poly
-  shire-of-indigo_victoria.poly
-  shire-of-loddon_victoria.poly
-  shire-of-macedon-ranges_victoria.poly
-  shire-of-mansfield_victoria.poly
-  shire-of-mitchell_victoria.poly
-  shire-of-moira_victoria.poly
-  shire-of-moorabool_victoria.poly
-  shire-of-mornington-peninsula_victoria.poly
-  shire-of-mount-alexander_victoria.poly
-  shire-of-moyne_victoria.poly
-  shire-of-murrindindi_victoria.poly
-  shire-of-nillumbik_victoria.poly
-  shire-of-northern-grampians_victoria.poly
-  shire-of-pyrenees_victoria.poly
-  shire-of-south-gippsland_victoria.poly
-  shire-of-strathbogie_victoria.poly
-  shire-of-towong_victoria.poly
-  shire-of-wellington_victoria.poly
-  shire-of-west-wimmera_victoria.poly
-  shire-of-yarriambiack_victoria.poly
-  surf-coast-shire_victoria.poly
-  "
-  cd $DIR
-  for poly in $polys ; do
-    if [ ! -e $poly ] ; then
-      CMD="wget -O $poly https://raw.githubusercontent.com/JamesChevalier/cities/master/australia/victoria/$poly"
-      echo $CMD; eval $CMD
-    fi
-  done
-  # combine the poly files into a single multi-sectioned file
-  $(echo "$polyfile" > $polyfile)
-  for poly in $polys ; do
-    $(echo "$poly" >> $polyfile)
-    $(cat $poly | tail -n +3 | tail -r | tail -n +3 | tail -r >> $polyfile)
-    $(echo "END" >> $polyfile)
-  done
-  $(echo "END" >> $polyfile)
-  cd -
-  printf "\nWrote polygon into $DIR/$polyfile\n\n"
+  wget -O $DIR/$polyfile "http://polygons.openstreetmap.fr/get_poly.py?id=2316741&params=0"
 fi
 
 # Generate a larger map of all the big roads to major cities
