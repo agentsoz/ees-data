@@ -1,4 +1,3 @@
-[out:csv(::id,name,::type,::lon,::lat; true; ",")];
 area[name="Victoria"][admin_level=4];
 (node[place="town"](area););
 out;
