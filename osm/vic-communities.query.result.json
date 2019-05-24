@@ -1,0 +1,10521 @@
+{
+"type": "FeatureCollection",
+"features": [
+{
+  "type": "Feature",
+  "id": "node/21579127",
+  "properties": {
+    "admin_level": "4",
+    "capital": "4",
+    "ele": "31",
+    "is_in:continent": "Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:iso_3166_2": "AU-VIC",
+    "is_in:state_code": "VIC",
+    "name": "Melbourne",
+    "name:ar": "ملبورن",
+    "name:de": "Melbourne",
+    "name:el": "Μελβούρνη",
+    "name:en:pronunciation": "ˈmɛlbn̩",
+    "name:eo": "Melburno",
+    "name:es": "Melbourne",
+    "name:fi": "Melbourne",
+    "name:fr": "Melbourne",
+    "name:he": "מלבורן",
+    "name:hi": "मॆल्बोर्न्",
+    "name:is": "Melbourne",
+    "name:ja": "メルボルン",
+    "name:kn": "ಮೆಲ್ಬೋರ್ನ್",
+    "name:ko": "멜버른",
+    "name:lt": "Melburnas",
+    "name:mi": "Poipiripi",
+    "name:mk": "Мелбурн",
+    "name:oc": "Melbourne",
+    "name:pl": "Melbourne",
+    "name:pronunciation": "ˈmɛlbn̩",
+    "name:ru": "Мельбурн",
+    "name:sr": "Мелбурн",
+    "name:sv": "Melbourne",
+    "name:uk": "Мельбурн",
+    "name:zh": "墨爾本",
+    "name:zh-Hans": "墨尔本",
+    "place": "city",
+    "population": "4440300",
+    "postal_code": "3000",
+    "rank": "1",
+    "source:name:oc": "Lo Congrès",
+    "source:population": "ABS Series 3218.0 - Regional Population Growth. Estimate at 30 Jun 2014",
+    "state_capital": "yes",
+    "website": "https://www.melbourne.vic.gov.au/",
+    "wikidata": "Q3141",
+    "wikipedia": "en:Melbourne",
+    "id": "node/21579127"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9631608,
+      -37.8142176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/25632235",
+  "properties": {
+    "ele": "145",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Seymour",
+    "name:ja": "セイモア",
+    "name:ru": "Симор",
+    "name:zh": "西摩",
+    "place": "town",
+    "population": "6370",
+    "postal_code": "3660",
+    "source:population": "http://www.censusdata.abs.gov.au/census_services/getproduct/census/2011/quickstat/",
+    "wikidata": "Q985689",
+    "wikipedia": "en:Seymour, Victoria",
+    "id": "node/25632235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1362432,
+      -37.0241543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/25635340",
+  "properties": {
+    "ele": "169",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Benalla",
+    "place": "town",
+    "population": "10331",
+    "source:population": "http://www.censusdata.abs.gov.au/census_services/getproduct/census/2011/quickstat/",
+    "id": "node/25635340"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9883521,
+      -36.548971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/25646189",
+  "properties": {
+    "ele": "308",
+    "is_in": "Australia, VIC, Victoria",
+    "name": "Wallan",
+    "place": "town",
+    "population": "8504",
+    "source:population": "http://www.censusdata.abs.gov.au/census_services/getproduct/census/2011/quickstat/",
+    "id": "node/25646189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9774549,
+      -37.4138855
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/25646380",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Kilmore",
+    "place": "town",
+    "population": "6678",
+    "source:population": "http://www.censusdata.abs.gov.au/census_services/getproduct/census/2011/quickstat/",
+    "id": "node/25646380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9510311,
+      -37.2922688
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/30863907",
+  "properties": {
+    "is_in": "Australia, Victoria",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Warburton",
+    "name:ar": "واربورتون",
+    "name:ru": "Уорбертон",
+    "name:zh": "沃伯顿",
+    "place": "town",
+    "population": "2012",
+    "population:census": "2016",
+    "postal_code": "3799",
+    "wikidata": "Q914214",
+    "id": "node/30863907"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6887265,
+      -37.7536223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/30877330",
+  "properties": {
+    "ele": "50",
+    "is_in": "Australia, VIC, Victoria",
+    "is_in:continent": "Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Mildura",
+    "name:en": "Mildura",
+    "name:ja": "ミルデューラ",
+    "name:ru": "Милдьюра",
+    "name:uk": "Мілдьюра",
+    "place": "city",
+    "population": "48691",
+    "website": "https://www.mildura.vic.gov.au/",
+    "wikidata": "Q705829",
+    "wikipedia": "en:Mildura",
+    "id": "node/30877330"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.1624972,
+      -34.1847265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/30917754",
+  "properties": {
+    "ele": "225",
+    "is_in": "Australia, VIC, Victoria",
+    "is_in:continent": "Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Bendigo",
+    "name:en": "Bendigo",
+    "name:ja": "ベンディゴ",
+    "name:ru": "Бендиго",
+    "name:zh": "本迪戈",
+    "place": "city",
+    "population": "86510",
+    "website": "https://www.bendigo.vic.gov.au/",
+    "wikidata": "Q497793",
+    "wikipedia": "en:Bendigo",
+    "id": "node/30917754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2825931,
+      -36.7588767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/30929281",
+  "properties": {
+    "is_in": "Australia, Victoria",
+    "name": "Launching Place",
+    "name:zh": "隆城普雷斯",
+    "place": "village",
+    "postal_code": "3139",
+    "id": "node/30929281"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5691921,
+      -37.7806769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/31617240",
+  "properties": {
+    "is_in": "Melbourne, Victoria, Australia",
+    "name": "Hastings",
+    "name:zh": "海斯廷斯",
+    "place": "town",
+    "wikidata": "Q3128258",
+    "wikipedia": "en:Hastings, Victoria",
+    "id": "node/31617240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1902003,
+      -38.307488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/32101094",
+  "properties": {
+    "ele": "495",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Lancefield",
+    "place": "town",
+    "wikidata": "Q936713",
+    "wikipedia": "en:Lancefield, Victoria",
+    "id": "node/32101094"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7340354,
+      -37.2763273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/34103046",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Harrietville",
+    "place": "town",
+    "wikidata": "Q2694498",
+    "id": "node/34103046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0638695,
+      -36.8923168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/34114869",
+  "properties": {
+    "addr:postcode": "3741",
+    "ele": "319",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Bright",
+    "name:ru": "Брайт",
+    "place": "town",
+    "website": "http://www.brightvictoria.com.au/",
+    "wikidata": "Q915640",
+    "wikipedia": "en:Bright, Victoria",
+    "id": "node/34114869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9607724,
+      -36.7285335
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/36422054",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Maldon",
+    "place": "town",
+    "wikidata": "Q3281764",
+    "id": "node/36422054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0689457,
+      -36.9963144
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/36693367",
+  "properties": {
+    "created_by": "Potlatch 0.5a",
+    "name": "Winchelsea",
+    "place": "village",
+    "id": "node/36693367"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9933043,
+      -38.2426332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/36698974",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Lorne",
+    "name:zh": "洛恩",
+    "place": "town",
+    "population": "967",
+    "postal_code": "3232",
+    "source": "2006 Census, Australian Bureau of Statistics",
+    "wikidata": "Q838210",
+    "id": "node/36698974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9748166,
+      -38.5411691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/36701460",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:continent": "Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Geelong",
+    "name:en": "Geelong",
+    "name:ja": "ジーロング",
+    "name:pronunciation": "dʒɪˈlɒŋ",
+    "name:ru": "Джелонг",
+    "name:uk": "Джелонг",
+    "name:zh": "吉朗",
+    "place": "city",
+    "population": "143921",
+    "website": "https://www.geelongaustralia.com.au/",
+    "wikidata": "Q231765",
+    "wikipedia": "en:Geelong",
+    "id": "node/36701460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3598269,
+      -38.1492813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55184586",
+  "properties": {
+    "name": "Nowa Nowa",
+    "place": "village",
+    "id": "node/55184586"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      148.0910062,
+      -37.7318356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55191990",
+  "properties": {
+    "name": "Lakes Entrance",
+    "place": "town",
+    "wikidata": "Q1020987",
+    "id": "node/55191990"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.9943828,
+      -37.8794582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55192009",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Bairnsdale",
+    "name:ru": "Бэрнсдейл",
+    "name:zh": "拜恩斯代尔",
+    "place": "city",
+    "population": "13900",
+    "wikidata": "Q803960",
+    "wikipedia": "en:Bairnsdale, Victoria",
+    "id": "node/55192009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.6304752,
+      -37.8254509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55196051",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Rosedale",
+    "place": "village",
+    "id": "node/55196051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.7878527,
+      -38.1511747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55196068",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Morwell",
+    "place": "town",
+    "wikidata": "Q72337",
+    "wikipedia": "en:Morwell, Victoria",
+    "id": "node/55196068"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3993983,
+      -38.2365734
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55199038",
+  "properties": {
+    "name": "Trafalgar",
+    "place": "village",
+    "id": "node/55199038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1543872,
+      -38.2087797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55199053",
+  "properties": {
+    "name": "Yarragon",
+    "place": "village",
+    "id": "node/55199053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0610329,
+      -38.2037736
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55199074",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Darnum",
+    "place": "village",
+    "id": "node/55199074"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0037143,
+      -38.1875459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55199092",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Warragul",
+    "name:ru": "Уоррагел",
+    "place": "town",
+    "wikidata": "Q942732",
+    "wikipedia": "en:Warragul",
+    "id": "node/55199092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.933629,
+      -38.1588674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/55199106",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Drouin",
+    "place": "town",
+    "id": "node/55199106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8561692,
+      -38.1361076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/56921985",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Moe",
+    "name:ru": "Моэ",
+    "place": "town",
+    "wikidata": "Q1420012",
+    "wikipedia": "en:Moe, Victoria",
+    "id": "node/56921985"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2618944,
+      -38.1775203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59628055",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Leongatha",
+    "name:ru": "Леонгата",
+    "place": "town",
+    "wikidata": "Q1767620",
+    "wikipedia": "en:Leongatha, Victoria",
+    "id": "node/59628055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9458605,
+      -38.4761569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59631938",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Inverloch",
+    "place": "town",
+    "wikidata": "Q2037996",
+    "id": "node/59631938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7279504,
+      -38.6331582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59631939",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Wonthaggi",
+    "name:ru": "Уонтагги",
+    "place": "town",
+    "wikidata": "Q2022320",
+    "wikipedia": "en:Wonthaggi",
+    "id": "node/59631939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5913433,
+      -38.6043664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59631940",
+  "properties": {
+    "name": "Venus Bay 1st Estate",
+    "place": "village",
+    "id": "node/59631940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8223958,
+      -38.7001842
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59631941",
+  "properties": {
+    "name": "Foster",
+    "place": "town",
+    "wikidata": "Q3749041",
+    "wikipedia": "en:Foster, Victoria",
+    "id": "node/59631941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.20186,
+      -38.6509683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59633024",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Orbost",
+    "name:ru": "Орбост",
+    "place": "town",
+    "wikidata": "Q2028572",
+    "id": "node/59633024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      148.4554712,
+      -37.7037061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59633025",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Marlo",
+    "place": "village",
+    "id": "node/59633025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      148.5318336,
+      -37.7950683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59634128",
+  "properties": {
+    "name": "Cann River",
+    "name:ru": "Канн-Ривер",
+    "place": "village",
+    "id": "node/59634128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      149.1499463,
+      -37.5656808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59653740",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Glengarry",
+    "place": "village",
+    "id": "node/59653740"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5732474,
+      -38.125847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59658742",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Churchill",
+    "old_name": "Hazelwood",
+    "place": "village",
+    "id": "node/59658742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4240251,
+      -38.3148078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59728919",
+  "properties": {
+    "name": "Heyfield",
+    "place": "town",
+    "wikidata": "Q1616962",
+    "id": "node/59728919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.7847464,
+      -37.9816865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59728920",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Toongabbie",
+    "place": "village",
+    "id": "node/59728920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.6238386,
+      -38.0594199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/59740606",
+  "properties": {
+    "name": "Boolarra",
+    "place": "village",
+    "wikidata": "Q775240",
+    "wikipedia": "en:Boolarra, Victoria",
+    "id": "node/59740606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2721984,
+      -38.3813131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60283369",
+  "properties": {
+    "ele": "443",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Gisborne",
+    "place": "town",
+    "id": "node/60283369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5904237,
+      -37.486723
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60287166",
+  "properties": {
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Euroa",
+    "name:ru": "Юроа",
+    "place": "town",
+    "postal_code": "3666",
+    "id": "node/60287166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.568763,
+      -36.7527608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60287199",
+  "properties": {
+    "name": "Broadford",
+    "name:ru": "Бродфорд",
+    "place": "village",
+    "id": "node/60287199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0504004,
+      -37.2019939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60303319",
+  "properties": {
+    "ele": "616",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Daylesford",
+    "name:ru": "Дейлсфорд",
+    "place": "town",
+    "wikidata": "Q3019340",
+    "wikipedia": "en:Daylesford, Victoria",
+    "id": "node/60303319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1465866,
+      -37.3414775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60568232",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "name": "Kinglake",
+    "place": "town",
+    "population": "1062",
+    "wikidata": "Q968998",
+    "id": "node/60568232"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.341131,
+      -37.5327424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60570255",
+  "properties": {
+    "is_in": "Australia, Victoria",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Healesville",
+    "name:ru": "Хилсвилл",
+    "name:zh": "希尔斯维尔",
+    "place": "town",
+    "wikidata": "Q1015813",
+    "wikipedia": "en:Healesville, Victoria",
+    "id": "node/60570255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5161533,
+      -37.6537218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60796165",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Glenrowan",
+    "place": "town",
+    "wikidata": "Q2358411",
+    "id": "node/60796165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2256668,
+      -36.4622687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60796195",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Portland",
+    "name:en": "Portland",
+    "name:ru": "Портленд",
+    "name:uk": "Портланд",
+    "place": "town",
+    "wikidata": "Q1663450",
+    "id": "node/60796195"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.6042304,
+      -38.3456231
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/60796473",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Ouyen",
+    "name:ru": "Уйен",
+    "place": "town",
+    "wikidata": "Q2042167",
+    "id": "node/60796473"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3163922,
+      -35.0692365
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65639903",
+  "properties": {
+    "is_in": "Australia, Victoria",
+    "name": "Eildon",
+    "place": "town",
+    "website": "https://www.lakeeildon.com/",
+    "wikidata": "Q2052638",
+    "wikipedia": "en:Eildon, Victoria",
+    "id": "node/65639903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.910156,
+      -37.2327565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65640166",
+  "properties": {
+    "created_by": "Potlatch 0.5",
+    "is_in": "Australia, Victoria",
+    "name": "Thornton",
+    "place": "village",
+    "id": "node/65640166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7986671,
+      -37.2542028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65640980",
+  "properties": {
+    "is_in": "Australia, Victoria",
+    "name": "Alexandra",
+    "place": "town",
+    "wikidata": "Q2643563",
+    "id": "node/65640980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.710775,
+      -37.192428
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65641576",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Yea",
+    "place": "town",
+    "id": "node/65641576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4224688,
+      -37.2130473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65642379",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Bonnie Doon",
+    "place": "village",
+    "id": "node/65642379"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8577689,
+      -37.0243404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65642826",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Mansfield",
+    "name:ru": "Мансфилд",
+    "place": "town",
+    "website": "https://mansfieldonline.com.au/",
+    "wikidata": "Q3286541",
+    "wikipedia": "en:Mansfield, Victoria",
+    "id": "node/65642826"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0881582,
+      -37.0520197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65649235",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Violet Town",
+    "place": "town",
+    "population": "1084",
+    "wikidata": "Q2340517",
+    "wikipedia": "en:Violet Town",
+    "id": "node/65649235"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7179789,
+      -36.6370888
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65657810",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Nagambie",
+    "place": "village",
+    "id": "node/65657810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1538251,
+      -36.7850448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/65663150",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Heathcote",
+    "name:ru": "Хиткот",
+    "place": "town",
+    "wikidata": "Q1592513",
+    "wikipedia": "en:Heathcote, Victoria",
+    "id": "node/65663150"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7033003,
+      -36.9160908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/67340420",
+  "properties": {
+    "ele": "27",
+    "is_in": "Melbourne, Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Dandenong",
+    "name:pronunciation": "ˈdændɪnɒŋ",
+    "name:zh": "丹德农",
+    "place": "town",
+    "postal_code": "3175",
+    "website": "http://www.greaterdandenong.com/",
+    "wikidata": "Q1159408",
+    "wikipedia": "en:Dandenong, Victoria",
+    "id": "node/67340420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2147923,
+      -37.98749
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/75040965",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "St Andrews",
+    "name:ja": "セント・アンドリュース",
+    "place": "village",
+    "population": "406",
+    "wikidata": "Q7592430",
+    "id": "node/75040965"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.272874,
+      -37.6027182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/78094548",
+  "properties": {
+    "is_in": "Melbourne, Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Melton",
+    "name:zh": "麦尔登",
+    "place": "town",
+    "population": "45624",
+    "postal_code": "3337",
+    "wikidata": "Q706032",
+    "wikipedia": "en:Melton, Victoria",
+    "id": "node/78094548"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5828446,
+      -37.6835714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/79917279",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Maffra",
+    "name:ru": "Мафра",
+    "place": "town",
+    "wikidata": "Q1883669",
+    "id": "node/79917279"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9764384,
+      -37.9652474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/94421814",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Robinvale",
+    "name:ru": "Робинвейл",
+    "place": "town",
+    "wikidata": "Q526671",
+    "id": "node/94421814"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7739356,
+      -34.5840409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/97160788",
+  "properties": {
+    "ele": "108",
+    "is_in": "Australia, Victoria, Melbourne",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Lilydale",
+    "name:zh": "利利代尔",
+    "place": "town",
+    "postal_code": "3140",
+    "wikidata": "Q6548615",
+    "wikipedia": "en:Lilydale, Victoria",
+    "id": "node/97160788"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.352405,
+      -37.7576639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/97542974",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Malmsbury",
+    "place": "village",
+    "population": "612",
+    "wikidata": "Q2421409",
+    "wikipedia": "en:Malmsbury, Victoria",
+    "id": "node/97542974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.38278,
+      -37.1887679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/97551519",
+  "properties": {
+    "name": "Taradale",
+    "place": "village",
+    "id": "node/97551519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3481266,
+      -37.1383817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/97564451",
+  "properties": {
+    "ele": "310.9",
+    "name": "Castlemaine",
+    "name:ru": "Каслмейн",
+    "place": "town",
+    "wikidata": "Q260317",
+    "wikipedia": "en:Castlemaine, Victoria",
+    "id": "node/97564451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2200032,
+      -37.0664778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/99490721",
+  "properties": {
+    "created_by": "Potlatch 0.5",
+    "is_in": "Australia, Victoria",
+    "name": "Marysville",
+    "place": "village",
+    "postal_code": "3779",
+    "id": "node/99490721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7490382,
+      -37.5097663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/106501642",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Edi",
+    "place": "village",
+    "id": "node/106501642"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4269813,
+      -36.6490573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/106783005",
+  "properties": {
+    "name": "Tolmie",
+    "place": "village",
+    "id": "node/106783005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2388766,
+      -36.9360838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/106945273",
+  "properties": {
+    "name": "Whitfield",
+    "name:ru": "Уитфилд",
+    "place": "village",
+    "id": "node/106945273"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4142531,
+      -36.7655239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/107168870",
+  "properties": {
+    "name": "Snobs Creek",
+    "place": "village",
+    "id": "node/107168870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8693179,
+      -37.2594245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/110831012",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Flinders",
+    "place": "village",
+    "wikidata": "Q5459405",
+    "id": "node/110831012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0187057,
+      -38.473312
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/110851535",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Red Hill",
+    "place": "village",
+    "wikidata": "Q7304262",
+    "wikipedia": "en:Red Hill, Victoria",
+    "id": "node/110851535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0264267,
+      -38.3799499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/110920561",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Arthurs Seat",
+    "name:zh": "亚瑟希特",
+    "place": "village",
+    "wikidata": "Q14935059",
+    "wikipedia": "en:Arthurs Seat, Victoria",
+    "id": "node/110920561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9537421,
+      -38.3543449
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/123453118",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Colac",
+    "name:ja": "コーラック",
+    "name:ru": "Колак",
+    "place": "town",
+    "wikidata": "Q1009509",
+    "id": "node/123453118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5858537,
+      -38.3399766
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/123458448",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Cobden",
+    "place": "town",
+    "wikidata": "Q2981144",
+    "id": "node/123458448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.07788,
+      -38.3282494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/123474233",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "name": "Camperdown",
+    "place": "town",
+    "id": "node/123474233"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.1465837,
+      -38.2318682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/124405711",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Hamilton",
+    "name:ru": "Гамильтон",
+    "place": "town",
+    "wikidata": "Q762430",
+    "id": "node/124405711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.0243127,
+      -37.7435744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/124415146",
+  "properties": {
+    "ele": "128",
+    "name": "Horsham",
+    "name:ru": "Хоршем",
+    "place": "city",
+    "wikidata": "Q1629019",
+    "wikipedia": "en:Horsham, Victoria",
+    "id": "node/124415146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.2018105,
+      -36.7148099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/131111452",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Lavers Hill",
+    "name:ru": "Лейверс-Хилл",
+    "place": "village",
+    "id": "node/131111452"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3914713,
+      -38.6807403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/135631881",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Echuca",
+    "name:ru": "Эчука",
+    "place": "town",
+    "wikidata": "Q991600",
+    "wikipedia": "en:Echuca",
+    "id": "node/135631881"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7516955,
+      -36.1281405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/135631910",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Swan Hill",
+    "name:ru": "Суон-Хилл",
+    "place": "town",
+    "wikidata": "Q2305836",
+    "wikipedia": "en:Swan Hill, Victoria",
+    "id": "node/135631910"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5592026,
+      -35.3393279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/139655584",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Thorpdale",
+    "place": "village",
+    "id": "node/139655584"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1763319,
+      -38.2884798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/143243427",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Portarlington",
+    "name:zh": "波塔灵顿",
+    "place": "town",
+    "population": "3147",
+    "wikidata": "Q7231520",
+    "id": "node/143243427"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6530634,
+      -38.1156562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/145472402",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Serpentine",
+    "place": "village",
+    "id": "node/145472402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9736418,
+      -36.4111834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/145478410",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Kerang",
+    "name:ru": "Керанг",
+    "place": "town",
+    "population": "3780",
+    "postal_code": "3579",
+    "wikidata": "Q1739176",
+    "wikipedia": "en:Kerang, Victoria",
+    "id": "node/145478410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9204152,
+      -35.7338373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/145496315",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Rochester",
+    "place": "town",
+    "id": "node/145496315"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7010197,
+      -36.3569068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/145496386",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Elmore",
+    "place": "town",
+    "id": "node/145496386"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6114432,
+      -36.4960503
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/147649314",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Cobram",
+    "place": "town",
+    "population": "6018",
+    "wikidata": "Q2981173",
+    "wikipedia": "en:Cobram",
+    "id": "node/147649314"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6484379,
+      -35.9197782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/147650260",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Strathmerton",
+    "place": "village",
+    "population": "941",
+    "id": "node/147650260"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4814773,
+      -35.9253013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/147654380",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Yarrawonga",
+    "place": "town",
+    "wikidata": "Q3571892",
+    "id": "node/147654380"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0063494,
+      -36.0141692
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/150984354",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Korumburra",
+    "place": "town",
+    "wikidata": "Q1876313",
+    "id": "node/150984354"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8236012,
+      -38.4321809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/150984383",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Meeniyan",
+    "place": "village",
+    "id": "node/150984383"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0140244,
+      -38.5789265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/150984681",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Sandy Point",
+    "place": "village",
+    "id": "node/150984681"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1258392,
+      -38.8287854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/150984762",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Loch",
+    "place": "village",
+    "id": "node/150984762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7066554,
+      -38.3696875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/150984808",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Nyora",
+    "place": "village",
+    "id": "node/150984808"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6708903,
+      -38.3347289
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/151064574",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Licola",
+    "place": "village",
+    "postal_code": "3858",
+    "id": "node/151064574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.6236613,
+      -37.6277686
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/161251891",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Yackandandah",
+    "place": "village",
+    "id": "node/161251891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.8390836,
+      -36.3143823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/161252527",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Beechworth",
+    "name:ru": "Бичуэрт",
+    "place": "town",
+    "wikidata": "Q2750312",
+    "id": "node/161252527"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.6870123,
+      -36.3594895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/161302593",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Omeo",
+    "place": "town",
+    "population": "452",
+    "website": "http://www.omeoregion.com.au/",
+    "wikidata": "Q605980",
+    "wikipedia": "en:Omeo",
+    "id": "node/161302593"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.5922462,
+      -37.1003991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/163564024",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Benambra",
+    "place": "village",
+    "id": "node/163564024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.7019731,
+      -36.9548032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/171095775",
+  "properties": {
+    "name": "Erica",
+    "place": "village",
+    "id": "node/171095775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3722255,
+      -37.9770423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/171095813",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Rawson",
+    "place": "village",
+    "id": "node/171095813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3996667,
+      -37.9568186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/174755062",
+  "properties": {
+    "ele": "442",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Ballan",
+    "name:zh": "巴兰",
+    "place": "town",
+    "population": "2045",
+    "id": "node/174755062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2267258,
+      -37.599505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/177799376",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Aireys Inlet",
+    "place": "village",
+    "population": "1071",
+    "postal_code": "3231",
+    "id": "node/177799376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1067555,
+      -38.4620894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/189820294",
+  "properties": {
+    "ele": "435",
+    "is_in": "Victoria, Australia",
+    "is_in:continent": "Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Ballarat",
+    "name:el": "Μπαλαράτ",
+    "name:he": "בלאראט",
+    "name:ja": "バララット",
+    "name:pt": "Ballarat",
+    "name:ru": "Балларат",
+    "name:zh": "巴拉瑞特",
+    "place": "city",
+    "population": "103815",
+    "website": "http://www.ballarat.vic.gov.au/",
+    "wikidata": "Q17856",
+    "wikipedia": "en:Ballarat, Victoria",
+    "id": "node/189820294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8607215,
+      -37.5622632
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/190049723",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Avoca",
+    "place": "town",
+    "wikidata": "Q791235",
+    "id": "node/190049723"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.4745461,
+      -37.0893309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/192816449",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Yarra Junction",
+    "name:zh": "亚拉交汇点",
+    "place": "town",
+    "postal_code": "3797",
+    "wikidata": "Q8049502",
+    "id": "node/192816449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6150255,
+      -37.7821693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/192825682",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Woori Yallock",
+    "name:zh": "沃瑞亚罗克",
+    "place": "village",
+    "wikidata": "Q8034033",
+    "id": "node/192825682"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5301262,
+      -37.7793329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/197342891",
+  "properties": {
+    "name": "Chiltern",
+    "place": "town",
+    "id": "node/197342891"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.6091261,
+      -36.1510392
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/203102403",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Tallangatta",
+    "place": "town",
+    "wikidata": "Q595043",
+    "id": "node/203102403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.1778983,
+      -36.2166166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/207729497",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Corryong",
+    "place": "town",
+    "id": "node/207729497"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.9042145,
+      -36.1975112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/214095276",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "St Arnaud",
+    "place": "town",
+    "wikidata": "Q2403511",
+    "id": "node/214095276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.255393,
+      -36.614998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/223239598",
+  "properties": {
+    "name": "Chewton",
+    "place": "village",
+    "id": "node/223239598"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2567357,
+      -37.0819229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/243920369",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Falls Creek",
+    "place": "village",
+    "id": "node/243920369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.2765969,
+      -36.8614797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/244037887",
+  "properties": {
+    "is_in": "Victoria",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Bannockburn",
+    "place": "town",
+    "population": "3512",
+    "wikidata": "Q4857005",
+    "id": "node/244037887"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1741939,
+      -38.0470559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/244038687",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Shelford",
+    "place": "village",
+    "id": "node/244038687"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9726735,
+      -38.012412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/244038691",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Cressy",
+    "place": "village",
+    "id": "node/244038691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6334604,
+      -38.0302734
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/245207093",
+  "properties": {
+    "name": "Howqua Inlet",
+    "place": "village",
+    "id": "node/245207093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1345578,
+      -37.2236484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/246992759",
+  "properties": {
+    "name": "Murchison",
+    "place": "town",
+    "id": "node/246992759"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.21663,
+      -36.6173625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/246992762",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Rushworth",
+    "place": "town",
+    "wikidata": "Q1835215",
+    "id": "node/246992762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.01557,
+      -36.5860102
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/247128968",
+  "properties": {
+    "name": "Baranduda",
+    "place": "village",
+    "postal_code": "3691",
+    "id": "node/247128968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.947846,
+      -36.184225
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251144815",
+  "properties": {
+    "name": "Milawa",
+    "place": "village",
+    "id": "node/251144815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4320957,
+      -36.4492739
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251145940",
+  "properties": {
+    "name": "Hotham Heights",
+    "place": "village",
+    "id": "node/251145940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.1439944,
+      -36.9830728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251155078",
+  "properties": {
+    "name": "Dinner Plain",
+    "place": "village",
+    "id": "node/251155078"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.2389786,
+      -37.0235844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251229850",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Merbein",
+    "place": "village",
+    "id": "node/251229850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.0581482,
+      -34.167621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251452945",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Rhyll",
+    "place": "village",
+    "population": "539",
+    "id": "node/251452945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3081245,
+      -38.4642208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251587230",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Newhaven",
+    "place": "village",
+    "population": "386",
+    "id": "node/251587230"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3607644,
+      -38.5150092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/251587231",
+  "properties": {
+    "name": "San Remo",
+    "place": "village",
+    "id": "node/251587231"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.369394,
+      -38.5214924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/252999906",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Kyabram",
+    "place": "town",
+    "wikidata": "Q2740588",
+    "id": "node/252999906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0480905,
+      -36.3131874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/252999957",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Tatura",
+    "place": "town",
+    "wikidata": "Q3516125",
+    "id": "node/252999957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2329963,
+      -36.4399698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/253000282",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Girgarre",
+    "place": "village",
+    "id": "node/253000282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9813143,
+      -36.3977953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/254394473",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Traralgon South",
+    "place": "village",
+    "id": "node/254394473"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5419565,
+      -38.2978709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/255240308",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Toombullup",
+    "place": "village",
+    "id": "node/255240308"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2628702,
+      -36.9157863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/255372879",
+  "properties": {
+    "name": "Killara",
+    "place": "village",
+    "id": "node/255372879"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9504284,
+      -36.1400755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/256017271",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Bendoc",
+    "place": "village",
+    "id": "node/256017271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      148.8831664,
+      -37.1460351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/260333464",
+  "properties": {
+    "created_by": "JOSM",
+    "name": "Bemm River",
+    "place": "village",
+    "id": "node/260333464"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      148.9682657,
+      -37.7600836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/262269716",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Newborough",
+    "place": "village",
+    "wikidata": "Q7017029",
+    "wikipedia": "en:Newborough, Victoria",
+    "id": "node/262269716"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2905163,
+      -38.1830393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/263675075",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Yarra Glen",
+    "name:zh": "亚拉格兰",
+    "place": "town",
+    "wikidata": "Q2453315",
+    "wikipedia": "en:Yarra Glen, Victoria",
+    "id": "node/263675075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3743964,
+      -37.6573475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/266086130",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Inverleigh",
+    "place": "village",
+    "id": "node/266086130"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0573333,
+      -38.1016454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/266597469",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Charlton",
+    "place": "town",
+    "website": "www.charlton.vic.au",
+    "wikidata": "Q2961059",
+    "id": "node/266597469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3518194,
+      -36.26861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/267123862",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Port Campbell",
+    "name:ja": "ポート・キャンベル",
+    "place": "town",
+    "postal_code": "3269",
+    "wikidata": "Q987250",
+    "id": "node/267123862"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.995366,
+      -38.6196293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/267458656",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Whittlesea",
+    "name:ru": "Уитлси",
+    "name:zh": "惠尔特西",
+    "place": "town",
+    "postal_code": "3757",
+    "wikidata": "Q7996927",
+    "id": "node/267458656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1177321,
+      -37.5121301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/268698332",
+  "properties": {
+    "name": "Stratford",
+    "place": "village",
+    "source": "estimated",
+    "id": "node/268698332"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0808184,
+      -37.9689402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/271886065",
+  "properties": {
+    "name": "Harcourt",
+    "place": "village",
+    "id": "node/271886065"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.261155,
+      -36.9992197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/272672224",
+  "properties": {
+    "amenity": "post_office",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "name": "Mortlake",
+    "name:ru": "Мортлейк",
+    "place": "town",
+    "id": "node/272672224"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8055361,
+      -38.0812102
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/273048501",
+  "properties": {
+    "ele": "580",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Woodend",
+    "place": "town",
+    "wikidata": "Q3569828",
+    "wikipedia": "en:Woodend, Victoria",
+    "id": "node/273048501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5341381,
+      -37.3536857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/273048504",
+  "properties": {
+    "ele": "519",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Kyneton",
+    "place": "town",
+    "wikidata": "Q1931613",
+    "wikipedia": "en:Kyneton, Victoria",
+    "id": "node/273048504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.4552171,
+      -37.247494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/273863424",
+  "properties": {
+    "name": "Elphinstone",
+    "place": "village",
+    "id": "node/273863424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3325338,
+      -37.1032633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/273870295",
+  "properties": {
+    "name": "Newstead",
+    "place": "town",
+    "wikidata": "Q7019856",
+    "id": "node/273870295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0624913,
+      -37.1072778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/276618395",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Tylden",
+    "place": "village",
+    "id": "node/276618395"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.408245,
+      -37.3257463
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/276650497",
+  "properties": {
+    "addr:city": "Maryborough",
+    "ele": "249",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Maryborough",
+    "name:ja": "マリーボロー",
+    "name:ru": "Мэриборо",
+    "place": "town",
+    "wikidata": "Q1014561",
+    "wikipedia": "en:Maryborough, Victoria",
+    "id": "node/276650497"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7362835,
+      -37.0481014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283282883",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Minyip",
+    "place": "town",
+    "wikidata": "Q2748919",
+    "id": "node/283282883"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.5871266,
+      -36.4612399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283285303",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Donald",
+    "name:ru": "Доналд",
+    "place": "town",
+    "wikidata": "Q3035979",
+    "id": "node/283285303"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9830851,
+      -36.3701184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283286429",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Murtoa",
+    "name:ru": "Мертоа",
+    "place": "town",
+    "population": "1000",
+    "postal_code": "3390",
+    "wikidata": "Q3328241",
+    "id": "node/283286429"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.4678219,
+      -36.6194331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283287084",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Glenorchy",
+    "place": "village",
+    "id": "node/283287084"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6632284,
+      -36.9093826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283287126",
+  "properties": {
+    "ele": "231",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Stawell",
+    "name:ru": "Стоэлл",
+    "place": "town",
+    "wikidata": "Q2190456",
+    "wikipedia": "en:Stawell, Victoria",
+    "id": "node/283287126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7745476,
+      -37.0586869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283287579",
+  "properties": {
+    "ele": "307",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Ararat",
+    "name:lt": "Araratas",
+    "name:ru": "Арарат",
+    "place": "town",
+    "wikidata": "Q626295",
+    "wikipedia": "en:Ararat, Victoria",
+    "id": "node/283287579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.930621,
+      -37.2843443
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/283289063",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Navarre",
+    "place": "village",
+    "id": "node/283289063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.1139211,
+      -36.8996101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/286410341",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Baringhup",
+    "place": "village",
+    "id": "node/286410341"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9709534,
+      -36.9822648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/286432958",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Carisbrook",
+    "place": "village",
+    "id": "node/286432958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8143583,
+      -37.048901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/286439479",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Dunolly",
+    "name:ru": "Данолли",
+    "place": "town",
+    "wikidata": "Q739912",
+    "id": "node/286439479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7337931,
+      -36.8590029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/286446611",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Laancoorie",
+    "place": "village",
+    "id": "node/286446611"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.900029,
+      -36.8271705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/287165326",
+  "properties": {
+    "created_by": "Potlatch 0.10b",
+    "is_in": "Victoria, Australia",
+    "name": "Nhill",
+    "name:ru": "Нилл",
+    "place": "town",
+    "id": "node/287165326"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.6492931,
+      -36.3331297
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/287166724",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Warracknabeal",
+    "place": "town",
+    "wikidata": "Q2288705",
+    "id": "node/287166724"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3953525,
+      -36.2510282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/287167308",
+  "properties": {
+    "amenity": "post_office",
+    "is_in": "Victoria, Australia",
+    "name": "Dimboola",
+    "place": "town",
+    "wikidata": "Q28928770",
+    "id": "node/287167308"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.0272639,
+      -36.4554926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/287497158",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Birchip",
+    "place": "town",
+    "wikidata": "Q2904401",
+    "id": "node/287497158"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9159408,
+      -35.9827621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/287497593",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Sea Lake",
+    "place": "town",
+    "wikidata": "Q7439929",
+    "id": "node/287497593"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8505218,
+      -35.5056193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/289619307",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Buxton",
+    "place": "village",
+    "postal_code": "3711",
+    "id": "node/289619307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7092641,
+      -37.4238479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/289620071",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Narbethong",
+    "place": "village",
+    "id": "node/289620071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6628323,
+      -37.5474609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/289625028",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Silvan",
+    "place": "village",
+    "postal_code": "3795",
+    "wikidata": "Q7515664",
+    "id": "node/289625028"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4196179,
+      -37.8232257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/290610576",
+  "properties": {
+    "name": "Eddington",
+    "place": "village",
+    "id": "node/290610576"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8590303,
+      -36.8831059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/290613222",
+  "properties": {
+    "name": "Llanelly",
+    "place": "village",
+    "id": "node/290613222"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8550744,
+      -36.733737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/290614048",
+  "properties": {
+    "name": "Newbridge",
+    "place": "village",
+    "id": "node/290614048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8998345,
+      -36.7392158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/290614051",
+  "properties": {
+    "name": "Marong",
+    "place": "village",
+    "wikidata": "Q6772321",
+    "wikipedia": "en:Marong",
+    "id": "node/290614051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1333965,
+      -36.7363173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/290620842",
+  "properties": {
+    "name": "Lockwood South",
+    "place": "village",
+    "id": "node/290620842"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1559904,
+      -36.8385221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/291548996",
+  "properties": {
+    "name": "Dunkeld",
+    "place": "town",
+    "population": "751",
+    "wikidata": "Q5315351",
+    "id": "node/291548996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3441635,
+      -37.6494468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/291676622",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Irymple",
+    "place": "town",
+    "wikidata": "Q772372",
+    "id": "node/291676622"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.1704328,
+      -34.235623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/301978336",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Smeaton",
+    "place": "village",
+    "postal_code": "3364",
+    "id": "node/301978336"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9494734,
+      -37.3321801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/301978409",
+  "properties": {
+    "name": "Allendale",
+    "place": "village",
+    "id": "node/301978409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9229115,
+      -37.3701648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/301983645",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Creswick",
+    "place": "town",
+    "wikidata": "Q992412",
+    "wikipedia": "en:Creswick, Victoria",
+    "id": "node/301983645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8939669,
+      -37.4245857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/301990216",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Ascot",
+    "place": "village",
+    "id": "node/301990216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8046546,
+      -37.3987914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/301990792",
+  "properties": {
+    "addr:postcode": "3370",
+    "addr:postcode_1": "3370",
+    "is_in": "Victoria, Australia",
+    "name": "Clunes",
+    "place": "town",
+    "id": "node/301990792"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7865803,
+      -37.2940636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/308150957",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Cape Woolamai",
+    "place": "village",
+    "population": "1549",
+    "id": "node/308150957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3357662,
+      -38.5312595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/309587668",
+  "properties": {
+    "name": "The Gurdies",
+    "place": "village",
+    "wikidata": "Q31440555",
+    "id": "node/309587668"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5639191,
+      -38.3714408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/309587669",
+  "properties": {
+    "name": "Grantville",
+    "place": "village",
+    "id": "node/309587669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5318538,
+      -38.4073922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/309588091",
+  "properties": {
+    "is_in": "Phillip Island, Victoria, Australia",
+    "name": "Surf Beach",
+    "place": "village",
+    "population": "694",
+    "id": "node/309588091"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2997437,
+      -38.5133108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/309779601",
+  "properties": {
+    "is_in": "Phillip Island, Victoria, Australia",
+    "name": "Ventnor",
+    "place": "village",
+    "population": "585",
+    "id": "node/309779601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1715254,
+      -38.4690103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/312681507",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Berriwillock",
+    "place": "village",
+    "id": "node/312681507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9925103,
+      -35.6346106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/312681738",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Wycheproof",
+    "place": "town",
+    "website": "https://www.wycheproof.vic.au/",
+    "wikidata": "Q2347199",
+    "wikipedia": "en:Wycheproof",
+    "id": "node/312681738"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.2278903,
+      -36.0791844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/315415196",
+  "properties": {
+    "created_by": "Potlatch 0.10f",
+    "is_in": "Victoria, Australia",
+    "name": "Poowong",
+    "place": "village",
+    "id": "node/315415196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7644193,
+      -38.3430458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/315441904",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Smith's Beach",
+    "place": "village",
+    "population": "225",
+    "id": "node/315441904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2570493,
+      -38.5017258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/318538033",
+  "properties": {
+    "name": "Fryerstown",
+    "place": "village",
+    "id": "node/318538033"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2497343,
+      -37.1384936
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/318538075",
+  "properties": {
+    "name": "Vaughan",
+    "place": "village",
+    "id": "node/318538075"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2115232,
+      -37.1577724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/318538943",
+  "properties": {
+    "name": "Guildford",
+    "place": "village",
+    "id": "node/318538943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1668397,
+      -37.1490607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/321543045",
+  "properties": {
+    "name": "Campbells Creek",
+    "place": "village",
+    "id": "node/321543045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2031242,
+      -37.0952089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/321716928",
+  "properties": {
+    "name": "Redesdale",
+    "place": "village",
+    "wikidata": "Q7305797",
+    "wikipedia": "en:Redesdale, Victoria",
+    "id": "node/321716928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5315217,
+      -37.020796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/321882442",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Woolsthorpe",
+    "place": "village",
+    "id": "node/321882442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.4314251,
+      -38.1856495
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/321896626",
+  "properties": {
+    "name": "Mandurang South",
+    "place": "village",
+    "id": "node/321896626"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2820494,
+      -36.8568853
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/322471548",
+  "properties": {
+    "name": "White Hills",
+    "place": "village",
+    "id": "node/322471548"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3080701,
+      -36.7293626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/322765968",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Koroit",
+    "place": "town",
+    "postal_code": "3282",
+    "wikidata": "Q6432497",
+    "id": "node/322765968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3642583,
+      -38.2909806
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/324203838",
+  "properties": {
+    "name": "Deans Marsh",
+    "place": "village",
+    "id": "node/324203838"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8850105,
+      -38.3971531
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/324204174",
+  "properties": {
+    "created_by": "Potlatch 0.5a",
+    "name": "Birregurra",
+    "place": "village",
+    "id": "node/324204174"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7843347,
+      -38.3377863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/324204285",
+  "properties": {
+    "created_by": "Potlatch 0.5a",
+    "name": "Barwon Downs",
+    "place": "village",
+    "id": "node/324204285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7642038,
+      -38.4718996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/324500887",
+  "properties": {
+    "name": "Moyston",
+    "place": "village",
+    "wikidata": "Q12062134",
+    "wikipedia": "en:Moyston, Victoria",
+    "id": "node/324500887"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7663831,
+      -37.301764
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/324521624",
+  "properties": {
+    "name": "Pomonal",
+    "place": "village",
+    "id": "node/324521624"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6089474,
+      -37.1917868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/324529175",
+  "properties": {
+    "name": "Halls Gap",
+    "name:ja": "ホールズギャップ",
+    "place": "village",
+    "website": "https://www.visithallsgap.com.au/",
+    "wikidata": "Q844442",
+    "id": "node/324529175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.520244,
+      -37.1417687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/325250546",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Numurkah",
+    "place": "town",
+    "wikidata": "Q2115087",
+    "id": "node/325250546"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4416699,
+      -36.0930602
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/325650371",
+  "properties": {
+    "name": "Tooborac",
+    "place": "village",
+    "id": "node/325650371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7989814,
+      -37.0430837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/330691574",
+  "properties": {
+    "name": "Rutherglen",
+    "place": "town",
+    "population": "2109",
+    "wikidata": "Q2375558",
+    "wikipedia": "en:Rutherglen, Victoria",
+    "id": "node/330691574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4601363,
+      -36.0538594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/333339752",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Wunghnu",
+    "place": "village",
+    "id": "node/333339752"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4326076,
+      -36.1539436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/335617920",
+  "properties": {
+    "name": "Forrest",
+    "name:ru": "Феррест",
+    "place": "village",
+    "id": "node/335617920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7164632,
+      -38.5186424
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/336655315",
+  "properties": {
+    "is_in": "Aireys Inlet, Victoria, Australia",
+    "name": "Fairhaven",
+    "place": "village",
+    "population": "354",
+    "postal_code": "3231",
+    "id": "node/336655315"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0828184,
+      -38.4664229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/338217490",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Teesdale",
+    "place": "village",
+    "population": "1479",
+    "id": "node/338217490"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0475898,
+      -38.0287529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/348204985",
+  "properties": {
+    "name": "Little Hampton",
+    "place": "village",
+    "id": "node/348204985"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2929052,
+      -37.3601181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/357001849",
+  "properties": {
+    "name": "Metcalfe",
+    "place": "village",
+    "id": "node/357001849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.4232273,
+      -37.1015366
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/364650996",
+  "properties": {
+    "name": "Smythesdale",
+    "place": "village",
+    "id": "node/364650996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6852896,
+      -37.6444457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/380041693",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Cape Paterson",
+    "place": "village",
+    "population": "718",
+    "postal_code": "3995",
+    "wikidata": "Q2937253",
+    "wikipedia": "en:Cape Paterson",
+    "id": "node/380041693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6160882,
+      -38.6717208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/413303193",
+  "properties": {
+    "name": "Rutherford Park",
+    "place": "village",
+    "id": "node/413303193"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0013241,
+      -37.3445477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/417279766",
+  "properties": {
+    "ele": "387",
+    "name": "Beaufort",
+    "name:ru": "Бофорт",
+    "place": "town",
+    "wikidata": "Q813371",
+    "wikipedia": "en:Beaufort, Victoria",
+    "id": "node/417279766"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3832189,
+      -37.4292674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/419546240",
+  "properties": {
+    "name": "Red Cliffs",
+    "place": "town",
+    "source": "Yahoo",
+    "wikidata": "Q3422682",
+    "id": "node/419546240"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.1895377,
+      -34.3070205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/420518946",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "name": "Bealiba",
+    "place": "village",
+    "id": "node/420518946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5481415,
+      -36.7892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/421412263",
+  "properties": {
+    "name": "Pimpinio",
+    "place": "village",
+    "id": "node/421412263"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.1193216,
+      -36.5852232
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/422849931",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Jeparit",
+    "place": "village",
+    "id": "node/422849931"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.9885456,
+      -36.1417708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/426740324",
+  "properties": {
+    "name": "Natimuk",
+    "place": "village",
+    "wikidata": "Q2566556",
+    "wikipedia": "en:Natimuk",
+    "id": "node/426740324"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.9421055,
+      -36.741498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427443606",
+  "properties": {
+    "name": "Moonambel",
+    "place": "village",
+    "id": "node/427443606"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3197258,
+      -36.9874114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427454038",
+  "properties": {
+    "name": "Natte Yallock",
+    "place": "village",
+    "id": "node/427454038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.4695996,
+      -36.9410263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427547375",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Boort",
+    "place": "town",
+    "population": "1173",
+    "postal_code": "3537",
+    "wikidata": "Q2910538",
+    "id": "node/427547375"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7222634,
+      -36.1177895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427834880",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Pyramid Hill",
+    "place": "town",
+    "postal_code": "3575",
+    "website": "http://www.pyramidhill.net.au/",
+    "id": "node/427834880"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1155932,
+      -36.0543991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427836164",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Mitiamo",
+    "place": "village",
+    "postal_code": "3573",
+    "id": "node/427836164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2327218,
+      -36.2098186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427865600",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Dookie",
+    "place": "village",
+    "postal_code": "3546",
+    "id": "node/427865600"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.687416,
+      -36.3283358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427865950",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Devenish",
+    "place": "village",
+    "postal_code": "3726",
+    "id": "node/427865950"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8953165,
+      -36.3311019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427912726",
+  "properties": {
+    "name": "Timor",
+    "place": "village",
+    "id": "node/427912726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7091366,
+      -36.9838404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/427912728",
+  "properties": {
+    "name": "Bowenvale",
+    "place": "village",
+    "id": "node/427912728"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7112944,
+      -36.9902113
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/440006771",
+  "properties": {
+    "name": "Sedgwick",
+    "place": "village",
+    "wikidata": "Q29708630",
+    "wikipedia": "en:Sedgwick, Victoria",
+    "id": "node/440006771"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3190293,
+      -36.8689118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/456874812",
+  "properties": {
+    "name": "Dargo",
+    "place": "village",
+    "postal_code": "3862",
+    "id": "node/456874812"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.2510817,
+      -37.4606911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/473245158",
+  "properties": {
+    "name": "Stuart Mill",
+    "place": "village",
+    "id": "node/473245158"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.2859212,
+      -36.8057401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/474993830",
+  "properties": {
+    "name": "Bromley",
+    "place": "village",
+    "id": "node/474993830"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7566755,
+      -36.8809304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/474993831",
+  "properties": {
+    "name": "Betley",
+    "place": "village",
+    "id": "node/474993831"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.797133,
+      -36.9085223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/482791855",
+  "properties": {
+    "name": "Meredith",
+    "place": "village",
+    "id": "node/482791855"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.0754653,
+      -37.8436639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/482791859",
+  "properties": {
+    "name": "Lethbridge",
+    "place": "village",
+    "id": "node/482791859"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1331351,
+      -37.9672272
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/482791879",
+  "properties": {
+    "is_in": "Ballarat, Victoria, Australia",
+    "name": "Buninyong",
+    "place": "town",
+    "wikidata": "Q2928211",
+    "id": "node/482791879"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8839672,
+      -37.6502675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/506471044",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Avenel",
+    "place": "village",
+    "id": "node/506471044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2330184,
+      -36.9018435
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/512089669",
+  "properties": {
+    "is_in:state": "Victoria",
+    "name": "Casterton",
+    "name:ru": "Кастертон",
+    "place": "town",
+    "wikidata": "Q2633771",
+    "id": "node/512089669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.4037762,
+      -37.585285
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/513051409",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Rainbow",
+    "place": "town",
+    "ref": "Rainbow",
+    "wikidata": "Q7284555",
+    "id": "node/513051409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.9955533,
+      -35.8981833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/513051410",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Yaapeet",
+    "name:ru": "Яапит",
+    "place": "village",
+    "id": "node/513051410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.054038,
+      -35.7690615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/529849425",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Wy Yung",
+    "place": "village",
+    "id": "node/529849425"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.6194595,
+      -37.8075305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/534508901",
+  "properties": {
+    "name": "Koo Wee Rup",
+    "place": "town",
+    "wikidata": "Q1783750",
+    "id": "node/534508901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.492854,
+      -38.1990553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/536319772",
+  "properties": {
+    "is_in": "Victoria Australia",
+    "name": "Dartmoor",
+    "place": "village",
+    "id": "node/536319772"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.2766551,
+      -37.9225444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/536417243",
+  "properties": {
+    "ele": "385",
+    "name": "Riddells Creek",
+    "place": "town",
+    "id": "node/536417243"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6776503,
+      -37.4587733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/536428916",
+  "properties": {
+    "name": "Mount Macedon",
+    "place": "village",
+    "id": "node/536428916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5876737,
+      -37.4031982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/550610421",
+  "properties": {
+    "name": "Pipers Creek",
+    "place": "village",
+    "id": "node/550610421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.54366,
+      -37.2524866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/556088786",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Lang Lang",
+    "place": "village",
+    "wikidata": "Q1804848",
+    "id": "node/556088786"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5627778,
+      -38.2660405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/559877687",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Goughs Bay",
+    "place": "village",
+    "id": "node/559877687"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0667074,
+      -37.1861324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/560389644",
+  "properties": {
+    "name": "Haddon",
+    "place": "village",
+    "wikidata": "Q5637689",
+    "wikipedia": "en:Haddon, Victoria",
+    "id": "node/560389644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7109084,
+      -37.5891843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/563709805",
+  "properties": {
+    "name": "Tarnagulla",
+    "place": "village",
+    "id": "node/563709805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8314671,
+      -36.7692407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/564343915",
+  "properties": {
+    "name": "Bridgewater",
+    "place": "village",
+    "wikidata": "Q4966856",
+    "wikipedia": "en:Bridgewater On Loddon, Victoria",
+    "id": "node/564343915"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9414719,
+      -36.6010212
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/564517285",
+  "properties": {
+    "name": "Inglewood",
+    "place": "town",
+    "wikidata": "Q14935166",
+    "id": "node/564517285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8685313,
+      -36.5731171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/573254855",
+  "properties": {
+    "name": "Talbot",
+    "place": "town",
+    "population": "440",
+    "postal_code": "3371",
+    "wikipedia": "en:Talbot, Victoria",
+    "id": "node/573254855"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7017193,
+      -37.1703696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/573255140",
+  "properties": {
+    "name": "Majorca",
+    "place": "village",
+    "id": "node/573255140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7984647,
+      -37.1111128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/583007059",
+  "properties": {
+    "is_in:country": "Australia",
+    "name": "Nelson",
+    "place": "village",
+    "id": "node/583007059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.0063687,
+      -38.0472404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/583223357",
+  "properties": {
+    "name": "Stanley",
+    "place": "village",
+    "id": "node/583223357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.754845,
+      -36.4048862
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/595501874",
+  "properties": {
+    "name": "Dadswells Bridge",
+    "place": "village",
+    "id": "node/595501874"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.5133368,
+      -36.9177601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/595869190",
+  "properties": {
+    "name": "Coleraine",
+    "name:ru": "Колрейн",
+    "place": "town",
+    "wikidata": "Q2037047",
+    "id": "node/595869190"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.6895453,
+      -37.5998611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/596083375",
+  "properties": {
+    "name": "Byaduk",
+    "place": "village",
+    "wikidata": "Q1018445",
+    "wikipedia": "en:Byaduk",
+    "id": "node/596083375"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.9537599,
+      -37.9517534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/596090099",
+  "properties": {
+    "name": "Macarthur",
+    "place": "village",
+    "id": "node/596090099"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.0001873,
+      -38.03137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/597124897",
+  "properties": {
+    "name": "Lake Boga",
+    "place": "town",
+    "wikidata": "Q2514940",
+    "id": "node/597124897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6319969,
+      -35.4584642
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598131168",
+  "properties": {
+    "addr:postcode": "3352",
+    "name": "Lexton",
+    "place": "village",
+    "wikidata": "Q6537907",
+    "wikipedia": "en:Lexton, Victoria",
+    "id": "node/598131168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5164784,
+      -37.2758929
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598180686",
+  "properties": {
+    "name": "Glenthompson",
+    "place": "village",
+    "id": "node/598180686"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.5471404,
+      -37.6362545
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598180795",
+  "properties": {
+    "is_in:state": "Victoria",
+    "name": "Wickliffe",
+    "place": "village",
+    "id": "node/598180795"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7235575,
+      -37.6903456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598180807",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Lake Bolac",
+    "place": "village",
+    "id": "node/598180807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.838586,
+      -37.7106948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598180853",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Westmere",
+    "place": "village",
+    "id": "node/598180853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9710248,
+      -37.68795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598180867",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Streatham",
+    "place": "village",
+    "id": "node/598180867"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.0629431,
+      -37.6792249
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598473187",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Purnim",
+    "place": "village",
+    "id": "node/598473187"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6203096,
+      -38.2802342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598474211",
+  "properties": {
+    "name": "Ellerslie",
+    "place": "village",
+    "wikidata": "Q31440052",
+    "id": "node/598474211"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6831677,
+      -38.1513311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598476141",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Derrinallum",
+    "place": "village",
+    "id": "node/598476141"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.2232842,
+      -37.9480803
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598476143",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Lismore",
+    "place": "village",
+    "id": "node/598476143"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3426993,
+      -37.952754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/598893746",
+  "properties": {
+    "name": "Winnap",
+    "place": "village",
+    "id": "node/598893746"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.3185638,
+      -37.9447834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/600217120",
+  "properties": {
+    "name": "Allestree",
+    "place": "village",
+    "id": "node/600217120"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.631467,
+      -38.2828148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/600217286",
+  "properties": {
+    "name": "Narrawong",
+    "place": "village",
+    "id": "node/600217286"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.7120678,
+      -38.2527619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/600217306",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Tyrendarra",
+    "place": "village",
+    "id": "node/600217306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.7816196,
+      -38.2176813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/601804693",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Penshurst",
+    "place": "village",
+    "id": "node/601804693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.2915453,
+      -37.8753817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/603045042",
+  "properties": {
+    "is_in": "Venus Bay",
+    "name": "Venus Bay 2nd Estate",
+    "place": "village",
+    "id": "node/603045042"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7890303,
+      -38.6766326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/608665084",
+  "properties": {
+    "name": "Linton",
+    "place": "village",
+    "source": "local_knowledge",
+    "id": "node/608665084"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5621257,
+      -37.6869943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/610899034",
+  "properties": {
+    "name": "Mt Buller Village",
+    "place": "village",
+    "id": "node/610899034"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4503164,
+      -37.1464059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/614465526",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Merricks Beach",
+    "place": "village",
+    "source": "survey",
+    "wikidata": "Q6820097",
+    "id": "node/614465526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0986775,
+      -38.3998558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/614465804",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Balnarring Beach",
+    "place": "village",
+    "source": "survey",
+    "id": "node/614465804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1200713,
+      -38.3912033
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/616579495",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Gembrook",
+    "place": "village",
+    "population": "942",
+    "postal_code": "3783",
+    "wikidata": "Q5530582",
+    "id": "node/616579495"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.550276,
+      -37.9527594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/617532907",
+  "properties": {
+    "name": "Balnarring",
+    "place": "village",
+    "wikidata": "Q944965",
+    "id": "node/617532907"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1171365,
+      -38.3707915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/621866750",
+  "properties": {
+    "name": "Edenhope",
+    "place": "town",
+    "wikidata": "Q2025580",
+    "id": "node/621866750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.2903039,
+      -37.0373011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/642902605",
+  "properties": {
+    "name": "Katamatite",
+    "place": "town",
+    "wikidata": "Q929332",
+    "id": "node/642902605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6873855,
+      -36.0796109
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/643008740",
+  "properties": {
+    "name": "Nathalia",
+    "place": "town",
+    "wikidata": "Q3336527",
+    "id": "node/643008740"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.207485,
+      -36.0578072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/644290984",
+  "properties": {
+    "name": "Tungamah",
+    "place": "village",
+    "id": "node/644290984"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8793802,
+      -36.1636796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/647402707",
+  "properties": {
+    "name": "Katandra West",
+    "place": "village",
+    "id": "node/647402707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5592149,
+      -36.227586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/662026831",
+  "properties": {
+    "ele": "154",
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Wangaratta",
+    "name:en": "Wangaratta",
+    "name:ja": "ウォンガラッタ",
+    "name:ru": "Уонгаратта",
+    "name:uk": "Вангаратта",
+    "name:zh": "旺加拉塔",
+    "place": "city",
+    "population": "26814",
+    "source:population": "http://www.censusdata.abs.gov.au/census_services/getproduct/census/2011/quickstat/",
+    "wikidata": "Q1024728",
+    "wikipedia": "en:Wangaratta",
+    "id": "node/662026831"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3230914,
+      -36.3562509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/665692449",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "VIC",
+    "name": "Hopetoun",
+    "place": "town",
+    "wikidata": "Q1144250",
+    "wikipedia": "en:Hopetoun, Victoria",
+    "id": "node/665692449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3635936,
+      -35.7295279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/666856559",
+  "properties": {
+    "name": "Glenhope",
+    "place": "village",
+    "id": "node/666856559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6093811,
+      -37.086386
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/666856560",
+  "properties": {
+    "name": "Mia Mia",
+    "place": "village",
+    "id": "node/666856560"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5715127,
+      -36.9999072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/669252807",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Toolamba",
+    "place": "village",
+    "id": "node/669252807"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3396679,
+      -36.4895624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/669944036",
+  "properties": {
+    "name": "Everton",
+    "place": "village",
+    "id": "node/669944036"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5424308,
+      -36.4331556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/671817454",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Greendale",
+    "place": "village",
+    "population": "536",
+    "id": "node/671817454"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2989014,
+      -37.5611732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/671817503",
+  "properties": {
+    "ele": "488",
+    "name": "Myrniong",
+    "name:zh": "墨农",
+    "place": "village",
+    "population": "221",
+    "id": "node/671817503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3471977,
+      -37.6197197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/677284293",
+  "properties": {
+    "name": "Gellibrand",
+    "place": "village",
+    "id": "node/677284293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.539963,
+      -38.5259945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/677370819",
+  "properties": {
+    "attribution": "Based on Geoscience Australia Data released under a CC-BY-SA 2.5 licence",
+    "name": "Eldorado",
+    "place": "village",
+    "source": "Geoscience Australia",
+    "id": "node/677370819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5224799,
+      -36.309855
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/685067714",
+  "properties": {
+    "name": "Metung",
+    "place": "village",
+    "id": "node/685067714"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.8535698,
+      -37.8931885
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/686358258",
+  "properties": {
+    "name": "Cudgewa",
+    "name:ru": "Каджева",
+    "place": "village",
+    "id": "node/686358258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.7703841,
+      -36.1917018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/686358262",
+  "properties": {
+    "name": "Tintaldra",
+    "place": "village",
+    "id": "node/686358262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.9307563,
+      -36.047204
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/686376850",
+  "properties": {
+    "name": "Old Tallangatta",
+    "place": "village",
+    "id": "node/686376850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.2556247,
+      -36.1934775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/686398491",
+  "properties": {
+    "name": "Towong",
+    "place": "village",
+    "id": "node/686398491"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.9879493,
+      -36.1269001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/688577107",
+  "properties": {
+    "name": "Thoona",
+    "place": "village",
+    "id": "node/688577107"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0781966,
+      -36.3383859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/692950786",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Kaniva",
+    "place": "town",
+    "wikidata": "Q2262320",
+    "id": "node/692950786"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.2418168,
+      -36.3795678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/704988442",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Maindample",
+    "place": "village",
+    "id": "node/704988442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9381024,
+      -37.0277773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/705557765",
+  "properties": {
+    "ele": "118",
+    "name": "Bacchus Marsh",
+    "name:zh": "巴克斯马什",
+    "place": "town",
+    "population": "14913",
+    "wikidata": "Q2878215",
+    "wikipedia": "en:Bacchus Marsh, Victoria",
+    "id": "node/705557765"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.4366202,
+      -37.6751897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/710369841",
+  "properties": {
+    "name": "Goornong",
+    "place": "village",
+    "wikidata": "Q23011160",
+    "wikipedia": "en:Goornong",
+    "id": "node/710369841"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5050338,
+      -36.6153222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/734785478",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Wandiligong",
+    "place": "village",
+    "id": "node/734785478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9828678,
+      -36.7699778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/750598653",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Lyonville",
+    "place": "village",
+    "id": "node/750598653"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2588517,
+      -37.3886206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/784178992",
+  "properties": {
+    "name": "Colbinabbin",
+    "place": "village",
+    "id": "node/784178992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7977207,
+      -36.5899309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/795544351",
+  "properties": {
+    "name": "Springhurst",
+    "place": "village",
+    "source": "nearmap",
+    "id": "node/795544351"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4670118,
+      -36.1860417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/801910487",
+  "properties": {
+    "name": "Corop",
+    "place": "village",
+    "id": "node/801910487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7924772,
+      -36.4578633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/801933740",
+  "properties": {
+    "name": "Stanhope",
+    "place": "village",
+    "id": "node/801933740"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9832425,
+      -36.4449581
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/811357369",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Great Western",
+    "place": "village",
+    "id": "node/811357369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8487198,
+      -37.1505747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/822487955",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Bellbrae",
+    "place": "village",
+    "population": "1338",
+    "postal_code": "3228",
+    "source": "2006 Census, Australian Bureau of Statictics",
+    "id": "node/822487955"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2620821,
+      -38.3308213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/841479813",
+  "properties": {
+    "name": "Yarck",
+    "place": "village",
+    "id": "node/841479813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6166202,
+      -37.101049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/841479815",
+  "properties": {
+    "name": "Molesworth",
+    "place": "village",
+    "id": "node/841479815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5393091,
+      -37.1677683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/841479834",
+  "properties": {
+    "name": "Merton",
+    "place": "village",
+    "id": "node/841479834"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7087811,
+      -36.9769458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/848380900",
+  "properties": {
+    "ele": "526",
+    "name": "Carlsruhe",
+    "place": "village",
+    "id": "node/848380900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5015224,
+      -37.2820626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/881883863",
+  "properties": {
+    "name": "Baddaginnie",
+    "place": "village",
+    "id": "node/881883863"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8598457,
+      -36.5904564
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/899897667",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Taggerty",
+    "place": "village",
+    "id": "node/899897667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7129071,
+      -37.3217484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/910283354",
+  "properties": {
+    "name": "Sawmill Settlement",
+    "place": "village",
+    "id": "node/910283354"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3631941,
+      -37.1108792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/911746171",
+  "properties": {
+    "name": "Merrijig",
+    "place": "village",
+    "id": "node/911746171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2630247,
+      -37.1034526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/928099304",
+  "properties": {
+    "name": "Panmure",
+    "place": "village",
+    "id": "node/928099304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7296898,
+      -38.3338716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/957787013",
+  "properties": {
+    "name": "Longwood",
+    "place": "village",
+    "id": "node/957787013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4209718,
+      -36.803441
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/958023897",
+  "properties": {
+    "name": "Oxley",
+    "place": "village",
+    "id": "node/958023897"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3839833,
+      -36.4432711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/958059787",
+  "properties": {
+    "name": "Ovens",
+    "place": "village",
+    "id": "node/958059787"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.7638863,
+      -36.589351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/966358245",
+  "properties": {
+    "is_in:state": "Victoria",
+    "name": "Balmoral",
+    "place": "village",
+    "wikidata": "Q4852375",
+    "wikipedia": "en:Balmoral, Victoria",
+    "id": "node/966358245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.8410629,
+      -37.2480556
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/986281840",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Mount Egerton",
+    "place": "village",
+    "population": "226",
+    "id": "node/986281840"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1042411,
+      -37.6279812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/986281846",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Gordon",
+    "name:zh": "戈登",
+    "place": "village",
+    "population": "378",
+    "id": "node/986281846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1079005,
+      -37.5812116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/988599601",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Caramut",
+    "place": "village",
+    "id": "node/988599601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.5188937,
+      -37.9567084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1022499257",
+  "properties": {
+    "name": "Coronet Bay",
+    "place": "village",
+    "id": "node/1022499257"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4362917,
+      -38.4376511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1080420035",
+  "properties": {
+    "name": "Stony Creek",
+    "place": "village",
+    "id": "node/1080420035"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0421241,
+      -38.588333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1080427999",
+  "properties": {
+    "name": "Koonwarra",
+    "place": "village",
+    "id": "node/1080427999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9422794,
+      -38.5470846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1102805633",
+  "properties": {
+    "name": "Werribee South",
+    "name:zh": "威勒比南",
+    "place": "village",
+    "population": "1768",
+    "postal_code": "3030",
+    "wikipedia": "en:Werribee South, Victoria",
+    "id": "node/1102805633"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6922245,
+      -37.9734648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1102900708",
+  "properties": {
+    "ele": "505",
+    "name": "Macedon",
+    "place": "town",
+    "wikidata": "Q3274192",
+    "wikipedia": "en:Macedon, Victoria",
+    "id": "node/1102900708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5636447,
+      -37.4214267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1103013918",
+  "properties": {
+    "name": "Tynong",
+    "place": "village",
+    "id": "node/1103013918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.6268414,
+      -38.0830345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1103013919",
+  "properties": {
+    "name": "Garfield",
+    "place": "village",
+    "population": "1466",
+    "id": "node/1103013919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.676222,
+      -38.0898677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1103013920",
+  "properties": {
+    "name": "Nar Nar Goon",
+    "place": "village",
+    "id": "node/1103013920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5752662,
+      -38.0839572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1108887154",
+  "properties": {
+    "name": "Dumbalk",
+    "place": "village",
+    "id": "node/1108887154"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0943244,
+      -38.5322127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1108914162",
+  "properties": {
+    "name": "Mirboo",
+    "place": "village",
+    "id": "node/1108914162"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2069079,
+      -38.469202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1110267733",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Panton Hill",
+    "place": "village",
+    "population": "227",
+    "wikidata": "Q7131895",
+    "id": "node/1110267733"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2390413,
+      -37.6413636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1160599925",
+  "properties": {
+    "name": "Corinella",
+    "place": "village",
+    "id": "node/1160599925"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4312019,
+      -38.4145808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1215715175",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Allansford",
+    "place": "town",
+    "postal_code": "3277",
+    "id": "node/1215715175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6001551,
+      -38.3862028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1215867850",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Terang",
+    "name:ru": "Теранг",
+    "place": "town",
+    "id": "node/1215867850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9146792,
+      -38.2399682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1215867851",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Noorat",
+    "place": "village",
+    "id": "node/1215867851"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9280958,
+      -38.1916882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1218301284",
+  "properties": {
+    "name": "Yanakie",
+    "place": "village",
+    "id": "node/1218301284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2064414,
+      -38.8124254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1227855788",
+  "properties": {
+    "name": "Waratah Bay",
+    "place": "village",
+    "source": "survey",
+    "id": "node/1227855788"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0406825,
+      -38.8096306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1233090812",
+  "properties": {
+    "name": "Tawonga",
+    "place": "village",
+    "source": "survey",
+    "id": "node/1233090812"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.1454227,
+      -36.6980345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1233274975",
+  "properties": {
+    "name": "Barnawartha",
+    "place": "village",
+    "id": "node/1233274975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.6735718,
+      -36.1054031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1236940165",
+  "properties": {
+    "name": "Tangambalanga",
+    "place": "village",
+    "source": "Bing",
+    "id": "node/1236940165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0299681,
+      -36.2525892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1241535291",
+  "properties": {
+    "name": "Eskdale",
+    "place": "village",
+    "source": "Bing",
+    "id": "node/1241535291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.2523834,
+      -36.4645541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1244297136",
+  "properties": {
+    "name": "Maroona",
+    "place": "village",
+    "id": "node/1244297136"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8597202,
+      -37.4398128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1266462756",
+  "properties": {
+    "is_in": "Phillip Island, Victoria",
+    "name": "Sunset Strip",
+    "place": "village",
+    "population": "338",
+    "id": "node/1266462756"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2684239,
+      -38.4960078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1280919401",
+  "properties": {
+    "name": "Boho South",
+    "place": "village",
+    "id": "node/1280919401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8024316,
+      -36.7908543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1281426391",
+  "properties": {
+    "name": "Walkerville",
+    "place": "village",
+    "source": "knowledge",
+    "id": "node/1281426391"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9959591,
+      -38.8533223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1282559959",
+  "properties": {
+    "name": "Beulah",
+    "place": "village",
+    "wikidata": "Q4899250",
+    "id": "node/1282559959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.4194615,
+      -35.9377317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1286335307",
+  "properties": {
+    "name": "Dooen",
+    "place": "village",
+    "id": "node/1286335307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.2552366,
+      -36.6599963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1294486079",
+  "properties": {
+    "name": "Barmah",
+    "place": "town",
+    "wikidata": "Q2257344",
+    "wikipedia": "en:Barmah",
+    "id": "node/1294486079"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9613869,
+      -36.0157009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1294551022",
+  "properties": {
+    "name": "Brim",
+    "place": "village",
+    "id": "node/1294551022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.417005,
+      -36.0767198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1294805998",
+  "properties": {
+    "name": "Patchewollock",
+    "name:ru": "Патчевуллок",
+    "place": "village",
+    "id": "node/1294805998"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.1899508,
+      -35.38088
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1323047809",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Timboon",
+    "name:ru": "Тимбун",
+    "place": "village",
+    "postal_code": "3268",
+    "id": "node/1323047809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9805534,
+      -38.4847238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1369673207",
+  "properties": {
+    "name": "Tinamba",
+    "place": "village",
+    "id": "node/1369673207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.8912933,
+      -37.9623924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1433706545",
+  "properties": {
+    "name": "Learmonth",
+    "place": "village",
+    "wikidata": "Q6510011",
+    "wikipedia": "en:Learmonth, Victoria",
+    "id": "node/1433706545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7185574,
+      -37.4234194
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1436386636",
+  "properties": {
+    "name": "Rheola",
+    "place": "village",
+    "id": "node/1436386636"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7012629,
+      -36.6481609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1485427684",
+  "properties": {
+    "is_in": "Victoria",
+    "name": "Kirkstall",
+    "place": "village",
+    "id": "node/1485427684"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3172203,
+      -38.2707257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1485658976",
+  "properties": {
+    "name": "Woorndoo",
+    "place": "village",
+    "id": "node/1485658976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7980965,
+      -37.8895381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1490292997",
+  "properties": {
+    "name": "Logan",
+    "place": "village",
+    "id": "node/1490292997"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.4899049,
+      -36.6206619
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1490293019",
+  "properties": {
+    "name": "Kingower",
+    "place": "village",
+    "id": "node/1490293019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7544993,
+      -36.6077171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1516284100",
+  "properties": {
+    "name": "Hawkesdale",
+    "place": "village",
+    "id": "node/1516284100"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.32175,
+      -38.1060606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1543893296",
+  "properties": {
+    "name": "Bearii",
+    "place": "village",
+    "id": "node/1543893296"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3391348,
+      -35.8990043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1561327783",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Pirron Yallock",
+    "place": "village",
+    "id": "node/1561327783"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.4289621,
+      -38.3493461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1561327789",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Pomborneit North",
+    "place": "village",
+    "id": "node/1561327789"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.2963725,
+      -38.2727579
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1563003146",
+  "properties": {
+    "name": "Naroghid",
+    "place": "village",
+    "id": "node/1563003146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.0575453,
+      -38.2599478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1572245258",
+  "properties": {
+    "name": "Rossbridge",
+    "place": "village",
+    "id": "node/1572245258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8494037,
+      -37.4847054
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1597598639",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Framlingham",
+    "place": "village",
+    "postal_code": "3265",
+    "id": "node/1597598639"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7000373,
+      -38.2421776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338196",
+  "properties": {
+    "name": "Cudgee",
+    "place": "village",
+    "postal_code": "3265",
+    "id": "node/1603338196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6514734,
+      -38.3445023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338227",
+  "properties": {
+    "name": "Ecklin South",
+    "place": "village",
+    "postal_code": "3265",
+    "id": "node/1603338227"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.9086743,
+      -38.3866111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338233",
+  "properties": {
+    "name": "Garvoc",
+    "place": "village",
+    "postal_code": "3265",
+    "id": "node/1603338233"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8143048,
+      -38.297646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338241",
+  "properties": {
+    "name": "Illowa",
+    "place": "village",
+    "postal_code": "3282",
+    "id": "node/1603338241"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.4021826,
+      -38.3282317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338264",
+  "properties": {
+    "name": "Mailors Flat",
+    "place": "village",
+    "postal_code": "3275",
+    "id": "node/1603338264"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.4729928,
+      -38.2903527
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338285",
+  "properties": {
+    "name": "Nirranda",
+    "place": "village",
+    "postal_code": "3268",
+    "id": "node/1603338285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.753259,
+      -38.4998764
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1603338317",
+  "properties": {
+    "name": "Nullawarre",
+    "place": "village",
+    "postal_code": "3268",
+    "id": "node/1603338317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7496598,
+      -38.4693522
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1604746406",
+  "properties": {
+    "name": "Yallourn North",
+    "place": "village",
+    "id": "node/1604746406"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3628955,
+      -38.1607015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1615025574",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Boundary Bend",
+    "place": "village",
+    "postal_code": "3599",
+    "id": "node/1615025574"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.1513403,
+      -34.7168454
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1615434644",
+  "properties": {
+    "name": "Matlock",
+    "place": "village",
+    "id": "node/1615434644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2077112,
+      -37.598542
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1615434719",
+  "properties": {
+    "name": "Woods Point",
+    "place": "village",
+    "id": "node/1615434719"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2556047,
+      -37.5716722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1617198913",
+  "properties": {
+    "name": "Seville",
+    "name:zh": "塞维尔",
+    "place": "town",
+    "id": "node/1617198913"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4594001,
+      -37.7782042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1617313571",
+  "properties": {
+    "name": "Wood Wood",
+    "place": "village",
+    "id": "node/1617313571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3464686,
+      -35.1065632
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1617471761",
+  "properties": {
+    "name": "Chillingollah",
+    "place": "village",
+    "id": "node/1617471761"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.0519629,
+      -35.2644941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1633381490",
+  "properties": {
+    "name": "Katunga",
+    "place": "village",
+    "id": "node/1633381490"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4575838,
+      -35.9996572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1633674673",
+  "properties": {
+    "name": "Yarroweyah",
+    "place": "village",
+    "population": "528",
+    "id": "node/1633674673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5611139,
+      -35.925826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1658798945",
+  "properties": {
+    "name": "Waubra",
+    "name:ru": "Уобра",
+    "place": "village",
+    "id": "node/1658798945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6367313,
+      -37.358208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1659960736",
+  "properties": {
+    "name": "Snake Valley",
+    "place": "village",
+    "id": "node/1659960736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5852956,
+      -37.611585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1661795387",
+  "properties": {
+    "name": "Coongulla",
+    "place": "village",
+    "id": "node/1661795387"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.7843668,
+      -37.8938553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1665456278",
+  "properties": {
+    "name": "Licola North",
+    "place": "village",
+    "id": "node/1665456278"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5504643,
+      -37.5195469
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1675217294",
+  "properties": {
+    "name": "Heywood",
+    "name:ru": "Хейвуд",
+    "place": "town",
+    "source": "Bing",
+    "wikidata": "Q5749836",
+    "id": "node/1675217294"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.6261575,
+      -38.1324107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1680935969",
+  "properties": {
+    "name": "Porepunkah",
+    "place": "village",
+    "id": "node/1680935969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9130167,
+      -36.6989975
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1682770654",
+  "properties": {
+    "name": "Lake Rowan",
+    "place": "village",
+    "id": "node/1682770654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.965718,
+      -36.2676841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1684487480",
+  "properties": {
+    "name": "Moyhu",
+    "place": "village",
+    "id": "node/1684487480"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.377516,
+      -36.5772919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1684545501",
+  "properties": {
+    "name": "Bundalong",
+    "place": "village",
+    "id": "node/1684545501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1658428,
+      -36.0329624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1701813096",
+  "properties": {
+    "name": "Jamieson",
+    "place": "town",
+    "website": "https://www.jamieson.org.au/",
+    "wikidata": "Q2611015",
+    "id": "node/1701813096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1375439,
+      -37.302894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1707829686",
+  "properties": {
+    "name": "Landsborough",
+    "place": "village",
+    "id": "node/1707829686"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.1337842,
+      -37.0082406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1707835886",
+  "properties": {
+    "name": "Mount Cole",
+    "place": "village",
+    "id": "node/1707835886"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.1710189,
+      -37.2610417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1718694928",
+  "properties": {
+    "name": "Bethanga",
+    "place": "village",
+    "id": "node/1718694928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0981879,
+      -36.1241053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1720085954",
+  "properties": {
+    "name": "Peechelba",
+    "place": "village",
+    "id": "node/1720085954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2316358,
+      -36.1926046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1721480909",
+  "properties": {
+    "name": "Dalyston",
+    "place": "village",
+    "id": "node/1721480909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.5442214,
+      -38.5644558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1721486843",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Coldstream",
+    "name:zh": "科尔德斯特里姆",
+    "place": "village",
+    "population": "2403",
+    "wikidata": "Q5142560",
+    "id": "node/1721486843"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.378424,
+      -37.7291014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1722445838",
+  "properties": {
+    "name": "Whorouly",
+    "place": "village",
+    "id": "node/1722445838"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5877015,
+      -36.5046423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1723585478",
+  "properties": {
+    "name": "Tarrawingee",
+    "place": "village",
+    "id": "node/1723585478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4506321,
+      -36.3914288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1728909993",
+  "properties": {
+    "name": "Swanpool",
+    "place": "village",
+    "id": "node/1728909993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9994795,
+      -36.7446086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1739957278",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Batesford",
+    "place": "village",
+    "population": "738",
+    "id": "node/1739957278"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2831315,
+      -38.0908082
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1745457597",
+  "properties": {
+    "name": "Goroke",
+    "place": "village",
+    "id": "node/1745457597"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.4759557,
+      -36.7182886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1745580648",
+  "properties": {
+    "name": "Langkoop",
+    "place": "village",
+    "id": "node/1745580648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.0356364,
+      -37.1012158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1746178869",
+  "properties": {
+    "name": "Apsley",
+    "place": "village",
+    "id": "node/1746178869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.0824997,
+      -36.9666612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1751005346",
+  "properties": {
+    "name": "Sale",
+    "name:ru": "Сейл",
+    "name:zh": "瑟尔",
+    "place": "town",
+    "wikidata": "Q1026976",
+    "id": "node/1751005346"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0647902,
+      -38.1050358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1762852999",
+  "properties": {
+    "name": "Swifts Creek",
+    "place": "village",
+    "wikidata": "Q3506588",
+    "id": "node/1762852999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.7236466,
+      -37.2636062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1778816094",
+  "properties": {
+    "name": "Willaura",
+    "name:ru": "Уиллора",
+    "place": "town",
+    "wikidata": "Q8003518",
+    "id": "node/1778816094"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.7398749,
+      -37.543964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1781016992",
+  "properties": {
+    "name": "Murrabit",
+    "place": "village",
+    "wikidata": "Q2562848",
+    "wikipedia": "en:Murrabit",
+    "id": "node/1781016992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9558953,
+      -35.5285977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1786834774",
+  "properties": {
+    "name": "Wychitella",
+    "place": "village",
+    "id": "node/1786834774"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5993819,
+      -36.2722712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1787039672",
+  "properties": {
+    "name": "Strathbogie",
+    "place": "village",
+    "id": "node/1787039672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.73589,
+      -36.8564674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1791477689",
+  "properties": {
+    "name": "Woomelang",
+    "place": "village",
+    "id": "node/1791477689"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.6686845,
+      -35.6817459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1792545922",
+  "properties": {
+    "name": "Jung",
+    "place": "village",
+    "id": "node/1792545922"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.3586934,
+      -36.6059333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1795281742",
+  "properties": {
+    "name": "St James",
+    "place": "village",
+    "id": "node/1795281742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.895337,
+      -36.2690341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1802764548",
+  "properties": {
+    "is_in:state": "Victoria",
+    "name": "Laang",
+    "place": "village",
+    "postal_code": "3265",
+    "id": "node/1802764548"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8068984,
+      -38.3684167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1828326449",
+  "properties": {
+    "name": "Kingston",
+    "place": "village",
+    "id": "node/1828326449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.9558066,
+      -37.374292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1852470040",
+  "properties": {
+    "name": "Myers Flat",
+    "place": "village",
+    "id": "node/1852470040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2197392,
+      -36.7062935
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1863909170",
+  "properties": {
+    "ele": "490",
+    "name": "Romsey",
+    "place": "town",
+    "wikidata": "Q3441263",
+    "wikipedia": "en:Romsey, Victoria",
+    "id": "node/1863909170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7374475,
+      -37.3518801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1875324216",
+  "properties": {
+    "name": "Myrtlebank",
+    "place": "village",
+    "id": "node/1875324216"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0291068,
+      -38.0644715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1875324217",
+  "properties": {
+    "name": "Fulham",
+    "place": "village",
+    "id": "node/1875324217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9887122,
+      -38.099603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1875326012",
+  "properties": {
+    "name": "Kilmany",
+    "place": "village",
+    "id": "node/1875326012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.912655,
+      -38.1041021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1883739644",
+  "properties": {
+    "name": "Point Leo",
+    "place": "village",
+    "wikidata": "Q7208062",
+    "id": "node/1883739644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0752586,
+      -38.4190327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1883739645",
+  "properties": {
+    "name": "Shoreham",
+    "place": "village",
+    "wikidata": "Q7501408",
+    "id": "node/1883739645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0554939,
+      -38.4247467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1887345497",
+  "properties": {
+    "name": "Nyah",
+    "place": "town",
+    "wikidata": "Q7070796",
+    "id": "node/1887345497"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3792615,
+      -35.1723395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1887612114",
+  "properties": {
+    "name": "Gunbower",
+    "place": "town",
+    "wikidata": "Q3120812",
+    "wikipedia": "en:Gunbower, Victoria",
+    "id": "node/1887612114"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3665973,
+      -35.957385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1887612115",
+  "properties": {
+    "name": "Wharparilla",
+    "place": "village",
+    "id": "node/1887612115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6279387,
+      -36.0694288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1887635010",
+  "properties": {
+    "name": "Koondrook",
+    "name:ru": "Кундрук",
+    "place": "town",
+    "wikidata": "Q2193269",
+    "wikipedia": "en:Koondrook",
+    "id": "node/1887635010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1269388,
+      -35.6361805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1905313388",
+  "properties": {
+    "name": "Axedale",
+    "place": "village",
+    "wikidata": "Q2678084",
+    "wikipedia": "en:Axedale",
+    "id": "node/1905313388"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5021542,
+      -36.7869388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1911101189",
+  "properties": {
+    "name": "Skipton",
+    "place": "village",
+    "id": "node/1911101189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3661092,
+      -37.6867099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1912364980",
+  "properties": {
+    "name": "Paynesville",
+    "place": "town",
+    "wikidata": "Q3165638",
+    "id": "node/1912364980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.7201233,
+      -37.9111097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1913430051",
+  "properties": {
+    "name": "Jindivick",
+    "place": "village",
+    "id": "node/1913430051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8994994,
+      -38.0273007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1917800073",
+  "properties": {
+    "name": "Trentham",
+    "place": "town",
+    "wikidata": "Q3538503",
+    "id": "node/1917800073"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3263388,
+      -37.3900875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1918187511",
+  "properties": {
+    "name": "Tanjil Bren",
+    "place": "village",
+    "id": "node/1918187511"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1772291,
+      -37.8233482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1955941091",
+  "properties": {
+    "name": "Bruthen",
+    "place": "village",
+    "id": "node/1955941091"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.8327356,
+      -37.7075197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/1987739722",
+  "properties": {
+    "name": "Howqua",
+    "place": "village",
+    "id": "node/1987739722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1417633,
+      -37.2127574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2008004226",
+  "properties": {
+    "name": "Wedderburn",
+    "place": "town",
+    "wikidata": "Q3567031",
+    "id": "node/2008004226"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6143424,
+      -36.4192187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2023755780",
+  "properties": {
+    "name": "Korong Vale",
+    "place": "village",
+    "id": "node/2023755780"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7038791,
+      -36.3558831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2036062049",
+  "properties": {
+    "name": "Yando",
+    "place": "village",
+    "id": "node/2036062049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7993752,
+      -36.0781067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2036116424",
+  "properties": {
+    "name": "Neerim South",
+    "place": "village",
+    "id": "node/2036116424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9537975,
+      -38.0156764
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2041482079",
+  "properties": {
+    "name": "Port Welshpool",
+    "place": "town",
+    "id": "node/2041482079"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4636958,
+      -38.7005314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2053862151",
+  "properties": {
+    "name": "Manangatang",
+    "place": "town",
+    "wikidata": "Q6746902",
+    "id": "node/2053862151"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8830435,
+      -35.0546525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2053932005",
+  "properties": {
+    "name": "Annuello",
+    "place": "village",
+    "id": "node/2053932005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.831812,
+      -34.8545668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2053933205",
+  "properties": {
+    "name": "Bolton",
+    "place": "village",
+    "id": "node/2053933205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.8802119,
+      -34.9663198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2057484378",
+  "properties": {
+    "name": "Cohuna",
+    "place": "town",
+    "wikidata": "Q2025839",
+    "id": "node/2057484378"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2200068,
+      -35.80826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2059381201",
+  "properties": {
+    "name": "Nyah West",
+    "place": "town",
+    "wikidata": "Q7070799",
+    "id": "node/2059381201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3469049,
+      -35.186663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2090519568",
+  "properties": {
+    "name": "Toolangi",
+    "place": "village",
+    "id": "node/2090519568"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4672481,
+      -37.5333775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2108209134",
+  "properties": {
+    "name": "Walpeup",
+    "place": "village",
+    "id": "node/2108209134"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.0244701,
+      -35.137134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2138130505",
+  "properties": {
+    "name": "Longwarry",
+    "place": "village",
+    "id": "node/2138130505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7705953,
+      -38.1111387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2138130510",
+  "properties": {
+    "name": "Bunyip",
+    "place": "town",
+    "id": "node/2138130510"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7208993,
+      -38.0971242
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2140871545",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Blackwood",
+    "place": "village",
+    "population": "297",
+    "id": "node/2140871545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3064691,
+      -37.4711829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2142451821",
+  "properties": {
+    "is_in": "Melbourne,Victoria,Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Rosebud",
+    "name:zh": "罗斯巴德",
+    "place": "town",
+    "postal_code": "3939",
+    "wikidata": "Q2104028",
+    "wikipedia": "en:Rosebud, Victoria",
+    "id": "node/2142451821"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9095115,
+      -38.3710325
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2148444968",
+  "properties": {
+    "ele": "1",
+    "is_in": "Melbourne,Victoria,Australia",
+    "is_in:country": "Australia",
+    "is_in:state_code": "VIC",
+    "name": "Frankston",
+    "name:ja": "フランクストン",
+    "name:zh": "法兰克斯顿",
+    "place": "town",
+    "website": "https://www.frankston.vic.gov.au/",
+    "wikidata": "Q1136771",
+    "wikipedia": "en:Frankston, Victoria",
+    "id": "node/2148444968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1268808,
+      -38.1444729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2151455885",
+  "properties": {
+    "name": "Cororooke",
+    "place": "village",
+    "id": "node/2151455885"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5231001,
+      -38.2871583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2151557322",
+  "properties": {
+    "addr:postcode": "3709",
+    "name": "Walwa",
+    "place": "village",
+    "population": "270",
+    "website": "http://walwa.com/",
+    "wikidata": "Q3988982",
+    "wikipedia": "en:Walwa, Victoria",
+    "id": "node/2151557322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.7357043,
+      -35.9640275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2166157813",
+  "properties": {
+    "name": "Longford",
+    "place": "town",
+    "id": "node/2166157813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0860703,
+      -38.171268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2174282817",
+  "properties": {
+    "name": "Lindenow",
+    "place": "village",
+    "id": "node/2174282817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.4583814,
+      -37.8004266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2177831085",
+  "properties": {
+    "name": "Waaia",
+    "place": "village",
+    "id": "node/2177831085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3312876,
+      -36.0522089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2244280314",
+  "properties": {
+    "name": "Congupna",
+    "place": "village",
+    "id": "node/2244280314"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4331636,
+      -36.3004956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2244829172",
+  "properties": {
+    "name": "Tallygaroopna",
+    "place": "village",
+    "id": "node/2244829172"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4336969,
+      -36.2379906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2266925017",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Swan Marsh",
+    "place": "village",
+    "id": "node/2266925017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.3805927,
+      -38.3727439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2279116847",
+  "properties": {
+    "name": "Puckapunyal",
+    "place": "town",
+    "wikidata": "Q7258247",
+    "id": "node/2279116847"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0359724,
+      -37.0008314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2285643533",
+  "properties": {
+    "addr:postcode": "3512",
+    "name": "Murrayville",
+    "place": "village",
+    "population": "444",
+    "website": "http://www.murrayville.com.au/",
+    "wikidata": "Q6939563",
+    "wikipedia": "en:Murrayville, Victoria",
+    "id": "node/2285643533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.1826485,
+      -35.2625514
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2292238671",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Mooroopna",
+    "place": "town",
+    "population": "7813",
+    "postal_code": "3629",
+    "id": "node/2292238671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3600618,
+      -36.3944998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2292243210",
+  "properties": {
+    "ele": "114",
+    "is_in": "Australia,VIC,Victoria",
+    "is_in:continent": "Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "is_in:state": "Victoria",
+    "is_in:state_code": "VIC",
+    "name": "Shepparton",
+    "name:ja": "シェパートン",
+    "name:ru": "Шеппартон",
+    "name:zh": "谢珀顿",
+    "place": "city",
+    "population": "29553",
+    "postal_code": "3630",
+    "wikidata": "Q707030",
+    "id": "node/2292243210"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3993172,
+      -36.381072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2300883824",
+  "properties": {
+    "name": "Simpson",
+    "place": "village",
+    "id": "node/2300883824"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.2077348,
+      -38.4956586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2302113532",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Beeac",
+    "place": "village",
+    "population": "224",
+    "id": "node/2302113532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6396332,
+      -38.1945621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2310539086",
+  "properties": {
+    "name": "Ensay",
+    "place": "village",
+    "id": "node/2310539086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.8361564,
+      -37.3735395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2310957955",
+  "properties": {
+    "name": "Cunninghame",
+    "place": "village",
+    "id": "node/2310957955"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      148.0223141,
+      -37.8639147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2321683713",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:state": "Victoria",
+    "name": "Warrnambool",
+    "name:ja": "ウォーナンブール",
+    "name:ru": "Уорнамбул",
+    "place": "city",
+    "population": "29284",
+    "postal_code": "3280",
+    "wikidata": "Q705867",
+    "wikipedia": "en:Warrnambool",
+    "id": "node/2321683713"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.4814191,
+      -38.3826241
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2321687663",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Port Fairy",
+    "name:ru": "Порт-Фэри",
+    "place": "town",
+    "population": "2835",
+    "wikidata": "Q459900",
+    "id": "node/2321687663"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      142.2366722,
+      -38.3855117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2322531905",
+  "properties": {
+    "ele": "152",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Wodonga",
+    "name:ja": "ウォドンガ",
+    "place": "city",
+    "population": "31605",
+    "postal_code": "3690",
+    "website": "www.wodonga.vic.gov.au",
+    "wikidata": "Q606307",
+    "wikipedia": "en:Wodonga, Victoria",
+    "id": "node/2322531905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.8882581,
+      -36.1247183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2324019453",
+  "properties": {
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Traralgon",
+    "name:ja": "トララルゴン",
+    "name:ru": "Траралгон",
+    "place": "city",
+    "population": "24590",
+    "wikidata": "Q249022",
+    "wikipedia": "en:Traralgon",
+    "id": "node/2324019453"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.5382327,
+      -38.1946441
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2329183869",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Quambatook",
+    "place": "village",
+    "population": "213",
+    "postal_code": "3540",
+    "wikidata": "Q7268806",
+    "wikipedia": "en:Quambatook",
+    "id": "node/2329183869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.5208627,
+      -35.8500523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2339147238",
+  "properties": {
+    "name": "Golden Beach",
+    "place": "village",
+    "id": "node/2339147238"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.3982171,
+      -38.2106899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2340361477",
+  "properties": {
+    "name": "Leitchville",
+    "place": "village",
+    "id": "node/2340361477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3008167,
+      -35.9041353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2340366162",
+  "properties": {
+    "name": "Toora",
+    "place": "village",
+    "id": "node/2340366162"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.3243511,
+      -38.6647377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2340383709",
+  "properties": {
+    "name": "Port Albert",
+    "place": "village",
+    "id": "node/2340383709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.6921731,
+      -38.6718019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2340385928",
+  "properties": {
+    "name": "Alberton",
+    "place": "village",
+    "population": "262",
+    "id": "node/2340385928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.665851,
+      -38.6149923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2340393734",
+  "properties": {
+    "name": "Port Franklin",
+    "place": "village",
+    "id": "node/2340393734"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2792096,
+      -38.6829624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2346828295",
+  "properties": {
+    "name": "Mount Baw Baw Alpine Resort",
+    "place": "village",
+    "id": "node/2346828295"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.2648804,
+      -37.8406205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2347391045",
+  "properties": {
+    "name": "Hazeldene",
+    "place": "village",
+    "id": "node/2347391045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2881924,
+      -37.3447436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2385074315",
+  "properties": {
+    "name": "Mount Beauty",
+    "place": "village",
+    "id": "node/2385074315"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.1698681,
+      -36.7424253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2390147132",
+  "properties": {
+    "name": "Willow Grove",
+    "place": "village",
+    "id": "node/2390147132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1784909,
+      -38.072303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2410630288",
+  "properties": {
+    "name": "Mallacoota",
+    "place": "town",
+    "wikidata": "Q1002461",
+    "id": "node/2410630288"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      149.7540761,
+      -37.5599955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2423528819",
+  "properties": {
+    "name": "Seaspray",
+    "place": "village",
+    "id": "node/2423528819"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.1907243,
+      -38.3739713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2469854292",
+  "properties": {
+    "name": "Elmhurst",
+    "place": "village",
+    "id": "node/2469854292"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.2465065,
+      -37.1779618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2500170636",
+  "properties": {
+    "name": "Raywood",
+    "place": "village",
+    "wikidata": "Q7299413",
+    "wikipedia": "en:Raywood, Victoria",
+    "id": "node/2500170636"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2053477,
+      -36.5346745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2566169425",
+  "properties": {
+    "name": "Edi Upper",
+    "place": "village",
+    "id": "node/2566169425"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4391746,
+      -36.6629577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2574377523",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Drysdale",
+    "place": "town",
+    "population": "10927",
+    "wikidata": "Q2183429",
+    "id": "node/2574377523"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5710723,
+      -38.1728304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2574381250",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Queenscliff",
+    "name:zh": "昆斯克里夫",
+    "place": "town",
+    "population": "3880",
+    "wikidata": "Q3359425",
+    "wikipedia": "en:Queenscliff, Victoria",
+    "id": "node/2574381250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6612949,
+      -38.2671132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2574873755",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Wallington",
+    "place": "village",
+    "population": "1353",
+    "source": "2006 Census, Australian Bureau of Statistics",
+    "id": "node/2574873755"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5047089,
+      -38.2243412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2577650202",
+  "properties": {
+    "is_in": "Phillip Island, Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Cowes",
+    "name:zh": "高威斯",
+    "place": "town",
+    "population": "4310",
+    "id": "node/2577650202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2389787,
+      -38.4502447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2577656170",
+  "properties": {
+    "is_in": "Phillip Island, Victoria, Australia",
+    "name": "Wimbledon Heights",
+    "place": "village",
+    "population": "389",
+    "id": "node/2577656170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.234158,
+      -38.4801981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2577778018",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Lara",
+    "name:zh": "拉腊",
+    "place": "town",
+    "population": "11192",
+    "wikidata": "Q6488514",
+    "wikipedia": "en:Lara, Victoria",
+    "id": "node/2577778018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.4088294,
+      -38.0235346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2578696613",
+  "properties": {
+    "name": "Hopetoun Park",
+    "place": "village",
+    "population": "564",
+    "id": "node/2578696613"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5016361,
+      -37.6950368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2578884910",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Sunbury",
+    "name:ru": "Санбери",
+    "place": "town",
+    "population": "33062",
+    "postal_code": "3429",
+    "wikidata": "Q1007711",
+    "id": "node/2578884910"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7295281,
+      -37.5796938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2579307155",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Wonga Park South",
+    "place": "village",
+    "population": "205",
+    "id": "node/2579307155"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2702699,
+      -37.749204
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2579311080",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Wonga Park",
+    "name:zh": "万戈帕克",
+    "place": "village",
+    "population": "1616",
+    "postal_code": "3115",
+    "wikidata": "Q8032045",
+    "id": "node/2579311080"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.269802,
+      -37.7356804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2582850956",
+  "properties": {
+    "is_in": "Melbourne,Victoria,Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Pakenham",
+    "name:zh": "帕克南",
+    "place": "town",
+    "population": "32911",
+    "postal_code": "3810",
+    "id": "node/2582850956"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4833359,
+      -38.079153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2582852132",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Officer",
+    "name:zh": "欧菲瑟",
+    "place": "village",
+    "population": "7611",
+    "postal_code": "3809",
+    "id": "node/2582852132"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4099219,
+      -38.0601977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2591980050",
+  "properties": {
+    "name": "Barwon Heads",
+    "name:zh": "巴望头",
+    "place": "village",
+    "id": "node/2591980050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.4881352,
+      -38.2747705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2597859457",
+  "properties": {
+    "ele": "325",
+    "is_in": "Melbourne, Victoria, Australia",
+    "name": "Emerald",
+    "name:zh": "埃莫拉尔德",
+    "place": "town",
+    "postal_code": "3782",
+    "wikidata": "Q5370390",
+    "id": "node/2597859457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4407248,
+      -37.932111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2602423224",
+  "properties": {
+    "is_in": "Melbourne, Victoria, Australia",
+    "name": "Montrose",
+    "name:zh": "蒙罗斯",
+    "place": "town",
+    "postal_code": "3765",
+    "id": "node/2602423224"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3421513,
+      -37.8106247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2603801815",
+  "properties": {
+    "ele": "200",
+    "is_in": "Melbourne, Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Belgrave",
+    "name:zh": "贝尔格雷夫",
+    "place": "town",
+    "postal_code": "3160",
+    "website": "http://www.belgrave.vic.au",
+    "id": "node/2603801815"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3552263,
+      -37.912056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2607372790",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Clyde",
+    "name:zh": "克莱德",
+    "place": "village",
+    "population": "465",
+    "id": "node/2607372790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3290375,
+      -38.1326345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2608582330",
+  "properties": {
+    "is_in": "Melbourne, Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Cranbourne",
+    "name:ru": "Кранборн",
+    "name:zh": "克兰本",
+    "place": "town",
+    "wikidata": "Q3309297",
+    "wikipedia": "en:Cranbourne, Victoria",
+    "id": "node/2608582330"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2834004,
+      -38.1087442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2608593115",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Tooradin",
+    "place": "village",
+    "population": "931",
+    "wikidata": "Q7824200",
+    "id": "node/2608593115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3816827,
+      -38.2138303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2608598975",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Warneet",
+    "place": "village",
+    "wikidata": "Q7969681",
+    "wikipedia": "en:Warneet, Victoria",
+    "id": "node/2608598975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3117316,
+      -38.2213749
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2608684125",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Cannons Creek",
+    "place": "village",
+    "wikidata": "Q5032842",
+    "id": "node/2608684125"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3112899,
+      -38.2114954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2608857256",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Blind Bight",
+    "place": "village",
+    "population": "1238",
+    "wikidata": "Q4926517",
+    "id": "node/2608857256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3377629,
+      -38.2142175
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2613069224",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Leopold",
+    "name:zh": "利奥波德",
+    "place": "town",
+    "population": "9608",
+    "id": "node/2613069224"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.4644962,
+      -38.1891547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2615845781",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Torquay",
+    "name:zh": "托尔坎",
+    "place": "town",
+    "population": "13339",
+    "wikidata": "Q726992",
+    "id": "node/2615845781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3134076,
+      -38.3266551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2615851101",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Moriac",
+    "place": "village",
+    "population": "644",
+    "id": "node/2615851101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.1725521,
+      -38.2452578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2616803269",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Indented Head",
+    "place": "village",
+    "population": "920",
+    "id": "node/2616803269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7018698,
+      -38.1376789
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2617894356",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Little River",
+    "name:zh": "小河",
+    "place": "village",
+    "population": "278",
+    "id": "node/2617894356"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5009868,
+      -37.9639273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2626590762",
+  "properties": {
+    "name": "Kialla West",
+    "place": "village",
+    "id": "node/2626590762"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.389132,
+      -36.4651486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2640573598",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "St Leonards",
+    "name:zh": "圣莱奥纳尔",
+    "place": "town",
+    "population": "2000",
+    "wikidata": "Q7594013",
+    "id": "node/2640573598"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.7182761,
+      -38.1707592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2655270525",
+  "properties": {
+    "name": "Bellbridge",
+    "place": "village",
+    "source": "knowledge",
+    "id": "node/2655270525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.0620981,
+      -36.0990503
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2678009073",
+  "properties": {
+    "is_in": "Melbourne, Victoria, Australia",
+    "name": "Werribee",
+    "name:zh": "威勒比",
+    "place": "town",
+    "postal_code": "3030",
+    "id": "node/2678009073"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.6616976,
+      -37.9008141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2689342276",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Anglesea",
+    "name:zh": "安吉西",
+    "place": "town",
+    "population": "2454",
+    "postal_code": "3230",
+    "wikidata": "Q540478",
+    "id": "node/2689342276"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.188958,
+      -38.4051948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2713400672",
+  "properties": {
+    "ele": "153",
+    "is_in": "Victoria, Australia",
+    "name": "Diggers Rest",
+    "place": "village",
+    "id": "node/2713400672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.720969,
+      -37.6280256
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2741024566",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Cardigan Village",
+    "name:zh": "卡迪根村",
+    "place": "village",
+    "population": "506",
+    "id": "node/2741024566"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7084408,
+      -37.51617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2755479864",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Dales Creek",
+    "place": "village",
+    "population": "412",
+    "id": "node/2755479864"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.303154,
+      -37.5218646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2827225970",
+  "properties": {
+    "addr:postcode": "3971",
+    "name": "Yarram",
+    "name:ru": "Яррам",
+    "place": "village",
+    "population": "2168",
+    "wikidata": "Q985428",
+    "wikipedia": "en:Yarram",
+    "id": "node/2827225970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.675887,
+      -38.5616717
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2879532291",
+  "properties": {
+    "name": "Tarwin Lower",
+    "place": "village",
+    "population": "115",
+    "id": "node/2879532291"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8684178,
+      -38.7011062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2884764953",
+  "properties": {
+    "name": "Myrtleford",
+    "place": "town",
+    "wikidata": "Q1657718",
+    "id": "node/2884764953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.7261601,
+      -36.5618856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2939016806",
+  "properties": {
+    "name": "Walhalla",
+    "place": "village",
+    "id": "node/2939016806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4511254,
+      -37.9422515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2968743643",
+  "properties": {
+    "name": "Wooragee",
+    "place": "village",
+    "id": "node/2968743643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.731784,
+      -36.2907305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3017455196",
+  "properties": {
+    "name": "Wilby",
+    "place": "village",
+    "id": "node/3017455196"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0178908,
+      -36.1575578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3049730589",
+  "properties": {
+    "name": "Goorambat",
+    "place": "village",
+    "id": "node/3049730589"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.9201741,
+      -36.4071334
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3127112497",
+  "properties": {
+    "addr:postcode": "3770",
+    "name": "Yering",
+    "name:zh": "优伶",
+    "place": "town",
+    "wikidata": "Q8052599",
+    "wikipedia": "en:Yering, Victoria",
+    "id": "node/3127112497"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3746571,
+      -37.6887134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3136698236",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Ocean Grove",
+    "name:zh": "欧申格罗夫",
+    "place": "town",
+    "population": "16093",
+    "wikidata": "Q7076006",
+    "id": "node/3136698236"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.52487,
+      -38.267045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3153661836",
+  "properties": {
+    "name": "Loch Sport",
+    "place": "village",
+    "population": "689",
+    "id": "node/3153661836"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.5866604,
+      -38.0446837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3169659358",
+  "properties": {
+    "name": "Orrvale",
+    "place": "village",
+    "id": "node/3169659358"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4471175,
+      -36.3985216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3169667099",
+  "properties": {
+    "name": "Shepparton East",
+    "place": "village",
+    "id": "node/3169667099"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4623524,
+      -36.3885211
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3169667109",
+  "properties": {
+    "name": "Grahamvale",
+    "place": "village",
+    "id": "node/3169667109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4444165,
+      -36.3724912
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3169776469",
+  "properties": {
+    "name": "Kialla",
+    "place": "town",
+    "id": "node/3169776469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.3953615,
+      -36.4160585
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3169859371",
+  "properties": {
+    "name": "Greta South",
+    "place": "village",
+    "id": "node/3169859371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.237769,
+      -36.6192132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3169859372",
+  "properties": {
+    "name": "Mollyullah",
+    "place": "village",
+    "id": "node/3169859372"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1556923,
+      -36.6413743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3316744605",
+  "properties": {
+    "name": "Pyalong",
+    "place": "village",
+    "id": "node/3316744605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.8598202,
+      -37.1167657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3456718545",
+  "properties": {
+    "name": "Bandiana",
+    "place": "village",
+    "id": "node/3456718545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.9242396,
+      -36.1468485
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3524718170",
+  "properties": {
+    "building:levels": "1",
+    "name": "Tongala",
+    "place": "town",
+    "wikidata": "Q2339659",
+    "id": "node/3524718170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.9509454,
+      -36.2502613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3542827274",
+  "properties": {
+    "name": "Koyuga",
+    "place": "village",
+    "id": "node/3542827274"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.8869458,
+      -36.2205618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3796349579",
+  "properties": {
+    "name": "Tenby Point",
+    "place": "village",
+    "id": "node/3796349579"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.4771517,
+      -38.4109956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3861750500",
+  "properties": {
+    "name": "Dereel",
+    "place": "village",
+    "id": "node/3861750500"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.7542357,
+      -37.8194711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3942868080",
+  "properties": {
+    "name": "Wandong",
+    "place": "town",
+    "id": "node/3942868080"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0320881,
+      -37.3653018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3947199612",
+  "properties": {
+    "name": "Tankerton",
+    "place": "town",
+    "source": "hema",
+    "id": "node/3947199612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.2898474,
+      -38.3851124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4055759519",
+  "properties": {
+    "name": "Rubicon",
+    "place": "town",
+    "id": "node/4055759519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.8193919,
+      -37.2938389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4394357556",
+  "properties": {
+    "name": "Powelltown",
+    "place": "town",
+    "wikidata": "Q7236150",
+    "id": "node/4394357556"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.7514607,
+      -37.8630657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4553310617",
+  "properties": {
+    "name": "Byawartha",
+    "place": "village",
+    "id": "node/4553310617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.4870471,
+      -36.2917402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4655816383",
+  "properties": {
+    "name": "Paradise Beach",
+    "place": "village",
+    "id": "node/4655816383"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.4240851,
+      -38.1893528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4709226153",
+  "properties": {
+    "name": "Quandong",
+    "place": "village",
+    "postal_code": "3030",
+    "wikidata": "Q7268844",
+    "id": "node/4709226153"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.5538125,
+      -37.8388844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4945433670",
+  "properties": {
+    "name": "Huntly",
+    "place": "village",
+    "wikidata": "Q29434974",
+    "wikipedia": "en:Huntly, Victoria",
+    "id": "node/4945433670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3344307,
+      -36.6629455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4945433671",
+  "properties": {
+    "name": "Ascot",
+    "place": "village",
+    "id": "node/4945433671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3263626,
+      -36.7077539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4945433672",
+  "properties": {
+    "name": "Epsom",
+    "place": "village",
+    "id": "node/4945433672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.3122434,
+      -36.7056551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5215519255",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Piries",
+    "place": "village",
+    "id": "node/5215519255"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1314683,
+      -37.1478392
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5224039015",
+  "properties": {
+    "name": "Newlands Arm",
+    "place": "village",
+    "id": "node/5224039015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.7017859,
+      -37.9239361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5224039016",
+  "properties": {
+    "name": "Eagle Point",
+    "place": "village",
+    "id": "node/5224039016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      147.6804999,
+      -37.8963409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5440874977",
+  "properties": {
+    "name": "Moorabool",
+    "place": "village",
+    "id": "node/5440874977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.2925356,
+      -38.0666588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5448009360",
+  "properties": {
+    "name": "Bonshaw",
+    "place": "village",
+    "id": "node/5448009360"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.8182956,
+      -37.6073971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5603355821",
+  "properties": {
+    "name": "Somerville",
+    "place": "town",
+    "id": "node/5603355821"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.1736692,
+      -38.2254039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5603356746",
+  "properties": {
+    "is_in": "Melbourne, Victoria, Australia",
+    "is_in:country": "Australia",
+    "is_in:country_code": "AU",
+    "name": "Mornington",
+    "place": "town",
+    "id": "node/5603356746"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      145.0412592,
+      -38.2197962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5704950543",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Apollo Bay",
+    "name:zh": "阿波罗湾",
+    "place": "town",
+    "wikidata": "Q619097",
+    "id": "node/5704950543"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      143.6691463,
+      -38.7547442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5704950545",
+  "properties": {
+    "name": "Nanneella",
+    "place": "village",
+    "id": "node/5704950545"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      144.777478,
+      -36.3133551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5704950553",
+  "properties": {
+    "is_in": "Victoria, Australia",
+    "name": "Noojee",
+    "place": "village",
+    "id": "node/5704950553"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.0001174,
+      -37.8933491
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5704950561",
+  "properties": {
+    "name": "Mirboo North",
+    "place": "village",
+    "id": "node/5704950561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      146.1589628,
+      -38.4009793
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6001944126",
+  "properties": {
+    "name": "Underbool",
+    "place": "town",
+    "wikidata": "Q7883465",
+    "id": "node/6001944126"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      141.8090935,
+      -35.1708547
+    ]
+  }
+}
+]
+}

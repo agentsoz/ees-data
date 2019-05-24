@@ -1,3 +1,0 @@
-area[name="Victoria"][admin_level=4];
-(node[place="town"](area););
-out;

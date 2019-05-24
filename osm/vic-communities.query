@@ -1,0 +1,3 @@
+area[name="Victoria"][admin_level=4];
+(node["place"~"village|town|city"](area););
+out;
