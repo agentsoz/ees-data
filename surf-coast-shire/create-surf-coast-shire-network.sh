@@ -23,10 +23,12 @@ EPSG=EPSG:32754
 DIR=$(dirname "$0")
 
 # download the latest osmosis binary if needed
+# https://github.com/openstreetmap/osmosis/releases/download/0.48.3/osmosis-0.48.3.tgz
+OSMOSIS_BUILD=0.48.3
 OSMOSIS_ZIP=osmosis-latest.tgz
 OSMOSIS_DIR=$DIR/osmosis
 OSMOSIS_EXE=$DIR/osmosis/bin/osmosis
-OSMOSIS_WEB=https://bretth.dev.openstreetmap.org/osmosis-build/${OSMOSIS_ZIP}
+OSMOSIS_WEB=https://github.com/openstreetmap/osmosis/releases/download/${OSMOSIS_BUILD}/osmosis-${OSMOSIS_BUILD}.tgz
 if [ ! -d $OSMOSIS_DIR ] ; then
   cd $DIR
   printf "\nGetting $OSMOSIS_WEB ...\n\n"
@@ -37,7 +39,7 @@ if [ ! -d $OSMOSIS_DIR ] ; then
   tar xvfz $OSMOSIS_ZIP
   rm -f OSMOSIS_ZIP
   chmod a+x bin/osmosis
-  printf "\nInstalled latest osmosis in $OSMOSIS_EXE\n\n"
+  printf "\nInstalled osmosis $OSMOSIS_BUILD in $OSMOSIS_EXE\n\n"
   cd -
 fi
 
@@ -49,7 +51,7 @@ OSM_WEB=http://download.gisgraphy.com/openstreetmap/pbf/$OSM_ZIP
 if [ ! -f $DIR/$AU_PBF ] ; then
   cd $DIR
   printf "\nGetting $OSM_WEB ...\n\n"
-  #wget -O $OSM_ZIP http://download.gisgraphy.com/openstreetmap/pbf/$OSM_ZIP
+  wget -O $OSM_ZIP http://download.gisgraphy.com/openstreetmap/pbf/$OSM_ZIP
   printf "\nExtracting PBF from archive...\n\n"
   tar -jxvf $DIR/$OSM_ZIP
   mv AU $AU_PBF
@@ -57,6 +59,7 @@ if [ ! -f $DIR/$AU_PBF ] ; then
 fi
 
 # download the poly file for the Shire
+# https://raw.githubusercontent.com/JamesChevalier/cities/master/australia/victoria/surf-coast-shire_victoria.poly
 polyfile="surf-coast-shire_victoria.poly"
 if [ ! -e $DIR/$polyfile ] ; then
   CMD="wget -O $polyfile https://raw.githubusercontent.com/JamesChevalier/cities/master/australia/victoria/$polyfile"
@@ -93,14 +96,30 @@ $OSMOSIS_EXE --rb file=$DIR/.allroads.pbf --rb file=$DIR/.bigroads.pbf --merge \
 
 fi
 
+
+# Install EES build if needed (from local repo)
+EES_BUILD=eeslib-2.1.1-SNAPSHOT
+EES_ZIP=${EES_BUILD}-release.zip
+EES_DIR=$DIR/ees
+EES_WEB=$DIR/../../ees/ees/target/${EES_ZIP}
+if [ ! -d $EES_DIR ] ; then
+  cd $DIR
+  mkdir $EES_DIR
+  cp $EES_WEB $EES_DIR
+  cd $EES_DIR
+  unzip $EES_ZIP
+  printf "\nInstalled EES in $EES_DIR\n\n"
+  cd -
+fi
+
 # Generate the MATSim network from the final map
 printf "\nCreating the final MATSim network...\n\n"
-cp $DIR/.merged-network.osm $DIR/../../..
-cd $DIR/../../..
-mvn exec:java -Dexec.mainClass="io.github.agentsoz.util.NetworkGenerator" \
-  -Dexec.args="-i .merged-network.osm -o ${OUTFILE_PREFIX}_network.xml -wkt ${EPSG}"
-cd -
-rm -f $DIR/../../../.merged-network.osm
-mv $DIR/../../../${OUTFILE_PREFIX}_network.xml $DIR
+JARS=$(find $EES_DIR -name "*.jar" -print | tr '\r\n' ':')
+JARS+=.
+CMD="java -cp $JARS io.github.agentsoz.util.NetworkGenerator"
+CMD+=" -i $DIR/.merged-network.osm -o $DIR/${OUTFILE_PREFIX}_network.xml -wkt ${EPSG}"
+echo $CMD && eval $CMD
+
+# Compress it
 gzip -f -9 $DIR/${OUTFILE_PREFIX}_network.xml
 printf "\nAll done. New network is in $DIR/${OUTFILE_PREFIX}_network.{xml.gz,osm}\n\n"
