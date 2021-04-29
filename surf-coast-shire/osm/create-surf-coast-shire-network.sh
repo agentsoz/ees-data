@@ -101,7 +101,7 @@ fi
 EES_BUILD=eeslib-2.1.1-SNAPSHOT
 EES_ZIP=${EES_BUILD}-release.zip
 EES_DIR=$DIR/ees
-EES_WEB=$DIR/../../ees/ees/target/${EES_ZIP}
+EES_WEB=$DIR/../../../ees/ees/target/${EES_ZIP}
 if [ ! -d $EES_DIR ] ; then
   cd $DIR
   mkdir $EES_DIR
